@@ -1,0 +1,47 @@
+body {
+  font-size: 10px;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #f3efef;
+}
+h1,
+h2 {
+  margin: 0;
+}
+header,
+footer {
+  background: #191964;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 2rem 0;
+}
+header {
+  font-size: 2rem;
+  text-align: center;
+}
+img {
+  float: right;
+  position: absolute;
+  right: 3.5rem;
+  top: 2rem;
+  box-shadow: 4px 4px 20px 1px #000000;
+}
+main {
+  font-size: 1.5rem;
+  padding: 3.5rem;
+}
+
+footer {
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+footer a {
+  color: #ffffff;
+}
+footer span {
+  color: hsl(56, 100%, 50%);
+  font-weight: bold;
+  line-height: 0.5rem;
+}

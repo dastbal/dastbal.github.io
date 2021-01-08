@@ -1,12 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&family=Signika:wght@300;400;500;600;700&display=swap");
+
 body {
   font-size: 10px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0.5rem auto;
   background-color: #f3efef;
 }
 h1,
 h2 {
   margin: 0;
+  font-family: "Signika", sans-serif;
+}
+p {
+  font-family: "Roboto Slab", serif;
 }
 header,
 footer {
@@ -28,7 +34,9 @@ main {
   font-size: 1.5rem;
   padding: 3.5rem;
 }
-
+main a {
+  color: #191964;
+}
 footer {
   padding: 0.5rem 0;
   font-size: 1.2rem;

@@ -1,6 +1,6 @@
 body {
   font-size: 10px;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   background-color: #f3efef;
 }
@@ -19,11 +19,9 @@ header {
   font-size: 2rem;
   text-align: center;
 }
+
 img {
-  float: right;
-  position: absolute;
-  right: 3.5rem;
-  top: 2rem;
+  display: inline-block;
   box-shadow: 4px 4px 20px 1px #000000;
 }
 main {
@@ -44,4 +42,38 @@ footer span {
   color: hsl(56, 100%, 50%);
   font-weight: bold;
   line-height: 0.5rem;
+}
+
+@media screen and (min-width: 675px) {
+  header {
+    text-align: left;
+    padding: 2rem 1rem;
+  }
+  img {
+    float: right;
+    position: absolute;
+    right: 1.3rem;
+    top: 2rem;
+    box-shadow: 4px 4px 20px 1px #000000;
+  }
+  main {
+    padding-left: 1rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  header {
+    text-align: center;
+  }
+  body {
+    font-size: 10px;
+    width: 95%;
+  }
+
+  img {
+    float: right;
+    position: absolute;
+    right: 2.5rem;
+    top: 2rem;
+    box-shadow: 4px 4px 20px 1px #000000;
+  }
 }

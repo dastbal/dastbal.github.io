@@ -29,6 +29,8 @@ header {
 img {
   display: inline-block;
   box-shadow: 4px 4px 20px 1px #000000;
+  width: 150px;
+  height: 250;
 }
 main {
   font-size: 1.5rem;

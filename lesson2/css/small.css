@@ -8,11 +8,23 @@ body {
   background-color: #f3efef;
 }
 h1,
-h2 {
+h2,
+h3,
+h4 {
   margin: 0;
   font-family: "Signika", sans-serif;
 }
-p {
+h3 {
+  font-size: 1.3rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+.grid a {
+  font-size: 1rem;
+}
+.grid p {
+  font-size: 1rem;
   font-family: "Roboto Slab", serif;
 }
 header,
@@ -25,12 +37,24 @@ header {
   font-size: 2rem;
   text-align: center;
 }
+section {
+  border: black 2px solid;
+  padding-top: 0;
+  border-radius: 8px;
+}
+.color--title {
+  background-color: green;
+  overflow: hidden;
+}
+grid {
+  display: grid;
+}
 
-img {
-  display: inline-block;
-  box-shadow: 4px 4px 20px 1px #000000;
-  width: 150px;
-  height: 250px;
+footer {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 2rem;
+  padding: 1rem 1rem;
 }
 main {
   font-size: 1.5rem;
@@ -38,12 +62,6 @@ main {
 }
 main a {
   color: #191964;
-}
-footer {
-  font-size: 1.2rem;
-  text-align: center;
-  line-height: 2rem;
-  padding: 1rem 1rem;
 }
 
 footer a {

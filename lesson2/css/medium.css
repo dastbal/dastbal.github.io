@@ -1,20 +1,19 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 525px) {
   html {
     font-size: 14px;
   }
   body {
     width: 95%;
-    margin: 0 2.5%;
+    margin: 0.5% 2.5% 0.5% 2.5%;
   }
   header {
-    text-align: left;
     padding: 2rem 1rem;
   }
-  .grid {
-    padding: auto;
+  main {
+    padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
   }
   .box-1 {
     grid-area: 1/1/2/2;
@@ -35,5 +34,6 @@
   }
   footer {
     padding: 0.8rem 1rem;
+    margin-top: -2rem;
   }
 }

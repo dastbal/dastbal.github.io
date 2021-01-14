@@ -13,7 +13,7 @@
     padding: 0;
     display: grid;
     grid-template-columns: 49% 49%;
-    grid-template-rows: 1fr 1fr 3rem;
+    grid-template-rows: 1fr 1fr 2rem;
     gap: 2%;
   }
   .box-1 {

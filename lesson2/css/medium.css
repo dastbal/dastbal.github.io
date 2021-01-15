@@ -1,10 +1,10 @@
-@media only screen and (min-width: 525px) {
+@media only screen and (min-width: 600px) {
   html {
     font-size: 14px;
   }
   body {
-    width: 95%;
-    margin: 0.5% 2.5% 0.5% 2.5%;
+    width: 85%;
+    margin: 0.5% 7.5% 0.5% 7.5%;
   }
   header {
     padding: 2rem 1rem;
@@ -13,7 +13,7 @@
     padding: 0;
     display: grid;
     grid-template-columns: 49% 49%;
-    grid-template-rows: 1fr 1fr 2rem;
+    grid-template-rows: 1fr 1fr 5rem;
     gap: 2%;
   }
   .box-1 {
@@ -35,6 +35,5 @@
   }
   footer {
     padding: 0.8rem 1rem;
-    margin-top: -2rem;
   }
 }

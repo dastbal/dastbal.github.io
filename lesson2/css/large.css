@@ -3,8 +3,8 @@
     font-size: 14px;
   }
   body {
-    width: 95%;
-    margin: 0.5% 2.5% 0.5% 2.5%;
+    width: 85%;
+    margin: 0.5% 7.5% 0 7.5%;
   }
   header {
     text-align: center;
@@ -35,6 +35,5 @@
   }
   footer {
     padding: 0.8rem 1rem;
-    margin-top: -4rem;
   }
 }

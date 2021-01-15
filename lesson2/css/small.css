@@ -5,7 +5,7 @@ html {
 }
 body {
   width: 100%;
-  margin: 0.5rem auto;
+  margin: 0 auto;
   background-color: #f3efef;
 }
 h1,
@@ -29,12 +29,12 @@ section p {
   padding: 0 2% 1rem 2%;
 }
 main {
-  margin: 2rem 0 7rem 0;
+  margin: 2rem 0 0 0;
   padding: 2rem 2%;
   display: grid;
   gap: 2%;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 3rem;
+  grid-template-rows: 1fr 1fr 1fr 12rem;
 }
 main a {
   font-size: 1rem;
@@ -51,13 +51,15 @@ footer {
   background: #191964;
   color: #ffffff;
   padding: 2rem 1rem;
+  box-shadow: 3px 3px 18px 1px rgb(95, 95, 95);
 }
 header {
   font-size: 2rem;
   text-align: center;
 }
 section {
-  border: black 2px solid;
+  /** border: black 2px solid; **/
+  box-shadow: 3px 3px 18px 1px rgb(66, 66, 66);
   padding-top: 0;
   border-radius: 8px;
   width: 100%;
@@ -70,7 +72,6 @@ footer {
   text-align: center;
   line-height: 2rem;
   padding: 1rem 1rem;
-  margin-top: 3rem;
 }
 main img {
   margin: 1rem 2% 0 2%;

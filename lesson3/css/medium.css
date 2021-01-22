@@ -11,7 +11,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 90%;
-    margin: 0 5%;
+    margin: 0 2.5%;
   }
 
   nav ul li:nth-child(even) {
@@ -24,7 +24,7 @@
   }
 
   nav li {
-    width: 50%;
+    width: 40%;
     margin: 0;
   }
 }

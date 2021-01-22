@@ -14,17 +14,17 @@
     color: black;
     margin: 0 10%;
   }
-  nav .li-start {
+  nav ul .li-start {
     display: flex;
     justify-content: flex-start;
     width: 10%;
   }
-  nav .li-end {
+  nav ul .li-end {
     display: flex;
     justify-content: flex-end;
     width: 15%;
   }
-  nav li {
+  nav ul li {
     width: 25%;
     margin: 0;
   }

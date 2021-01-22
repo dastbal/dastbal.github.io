@@ -1,0 +1,30 @@
+@media only screen and (min-width: 500px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  body header .header-center {
+    width: 90%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  nav ul li:nth-child(even) {
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul li:nth-child(odd) {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  nav li {
+    width: 50%;
+    margin: 0;
+  }
+}

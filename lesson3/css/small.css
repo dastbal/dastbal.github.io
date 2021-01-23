@@ -29,7 +29,7 @@ nav {
   background-color: rgb(8, 98, 121);
 }
 nav ul li a:hover {
-  color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
 nav ul {
@@ -64,8 +64,11 @@ main div {
 h2 {
   font-size: 2rem;
 }
+h3 {
+  font-size: 1.6rem;
+}
 main p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 main img {
   width: 250px;

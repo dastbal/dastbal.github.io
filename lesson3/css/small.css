@@ -103,9 +103,9 @@ tr {
   border-top: solid 1px black;
 }
 td {
-  padding-right: 4rem;
+  padding-right: 1%;
 
-  padding-bottom: 2rem;
+  padding-bottom: 2%;
 }
 thead td {
   font-size: 2rem;

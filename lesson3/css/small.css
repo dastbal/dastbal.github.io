@@ -26,7 +26,7 @@ header h1 {
 }
 nav {
   padding: 0.1rem;
-  background-color: rgb(8, 98, 121);
+  background-color: rgb(31, 5, 61);
 }
 nav ul li a:hover {
   color: rgb(0, 0, 0);
@@ -60,6 +60,15 @@ header .header-center,
 main div {
   width: 95%;
   margin: auto;
+}
+.color-img {
+  width: 80%;
+  margin: 0 10%;
+
+  box-shadow: 2px 2px 12px 3px black;
+}
+.color-img_link {
+  text-align: center;
 }
 h2 {
   font-size: 2rem;

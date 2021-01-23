@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Piazzolla:wght@500;700&display=swap");
 body {
   font-size: 8px;
   background-color: rgba(236, 222, 234, 0.918);
@@ -12,8 +13,7 @@ footer {
   margin: 0;
   padding: 0;
 }
-.header-center {
-}
+
 header img {
   margin: 0;
   float: left;
@@ -23,6 +23,7 @@ header img {
 header h1 {
   margin-left: 2.5em;
   font-size: 2rem;
+  font-family: "Piazzolla", serif;
 }
 nav {
   padding: 0.1rem;
@@ -49,6 +50,7 @@ nav li {
 nav li a {
   text-decoration: none;
   color: white;
+  font-family: "Piazzolla", serif;
 }
 
 header .header-center,
@@ -72,12 +74,15 @@ main div {
 }
 h2 {
   font-size: 2rem;
+  font-family: "Piazzolla", serif;
 }
 h3 {
   font-size: 1.6rem;
+  font-family: "Piazzolla", serif;
 }
 main p {
   font-size: 1.2rem;
+  font-family: "Arimo", sans-serif;
 }
 main img {
   width: 250px;
@@ -85,4 +90,50 @@ main img {
 footer {
   font-size: 1.3rem;
   text-align: center;
+  font-family: "Piazzolla", serif;
+}
+table {
+  margin: 0;
+  margin-top: -1rem;
+
+  margin-bottom: 2rem;
+}
+
+tr {
+  border-top: solid 1px black;
+}
+td {
+  padding-right: 4rem;
+
+  padding-bottom: 2rem;
+}
+thead td {
+  font-size: 2rem;
+  font-weight: bold;
+}
+tr:nth-child(1) {
+  font-size: 1.2rem;
+  font-family: "piazzolla";
+}
+tbody tr:nth-child(1) td:nth-child(4) {
+  font-size: 3.5rem;
+}
+
+tr:nth-child(2) {
+  font-size: 1.2rem;
+  font-family: "piazzolla";
+}
+tr:nth-child(2) td:nth-child(4) {
+  font-size: 2rem;
+}
+tr:nth-child(3) {
+  font-size: 1.2rem;
+  font-family: "piazzolla";
+}
+tr:nth-child(3) td:nth-child(4) {
+  font-size: 1.6rem;
+}
+tr:nth-child(4) {
+  font-size: 1.2rem;
+  font-family: "Arimo";
 }

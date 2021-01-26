@@ -29,6 +29,7 @@ header {
 }
 #btn {
   padding: 0.5rem 0;
+  color: black;
   margin: 0;
   background-color: transparent;
   border: none;
@@ -39,6 +40,7 @@ header {
   font-size: 1rem;
 }
 #btn:active {
+  color: white;
   background-color: rgb(2, 12, 20);
 }
 nav {
@@ -86,10 +88,16 @@ h2 {
   font-family: "Arimo", sans-serif;
 }
 footer {
-  padding: 1rem 0;
+  padding: 1rem 2%;
   font-size: 1rem;
   background-color: rgb(2, 12, 20);
   font-family: "arimo", serif;
   color: white;
   text-align: center;
+}
+footer a {
+  color: white;
+}
+#currentDate {
+  color: yellow;
 }

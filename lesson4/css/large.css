@@ -1,0 +1,40 @@
+@media only screen and (min-width: 790px) {
+  header {
+    background-color: rgb(2, 12, 20);
+  }
+  #btn {
+    display: none;
+  }
+  .container,
+  #ham,
+  main {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .navigation li a {
+    border: none;
+  }
+  .navigation li {
+    width: 100%;
+  }
+  .navigation li:first-child {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+  }
+  .navigation li:last-child {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+  }
+  .navigation li {
+    width: 100%;
+  }
+  .navigation li:hover {
+    background-color: rgb(57, 21, 99);
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+}

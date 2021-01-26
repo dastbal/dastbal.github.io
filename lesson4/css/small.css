@@ -3,13 +3,14 @@
 body {
   font-size: 10px;
 }
+
 header {
   margin: 0;
   padding: 0;
 }
 .small--header {
   padding: 1rem 0;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   background-color: rgb(2, 12, 20);
   font-family: "Piazzolla", serif;
   color: white;
@@ -18,8 +19,8 @@ header {
   justify-content: center;
 }
 .logo {
-  width: 70px;
-  margin-right: 3%;
+  width: 60px;
+  margin-right: 2%;
 }
 .logo img {
   margin: 0;
@@ -36,6 +37,9 @@ header {
 
   color: white;
   font-size: 1rem;
+}
+#btn:active {
+  background-color: rgb(2, 12, 20);
 }
 nav {
   background-color: rgb(31, 5, 61);

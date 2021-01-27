@@ -18,9 +18,19 @@ header {
   align-items: center;
   justify-content: center;
 }
+title {
+}
+.title h1 {
+  margin: 0.3rem 0;
+}
+.title p {
+  margin: 0;
+  font-size: 1rem;
+}
 .logo {
-  width: 60px;
+  width: 70px;
   margin-right: 2%;
+  margin-top: 0.7rem;
 }
 .logo img {
   margin: 0;

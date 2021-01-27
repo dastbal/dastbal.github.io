@@ -1,4 +1,4 @@
-let date = new Date();
+/**let date = new Date();
 let mes =[ "january" ,
 "February" ,
 "March",
@@ -28,6 +28,12 @@ let currentDate=  `${dayOfWeekend}, ${date.getDate()} ${month} ${date.getFullYea
 console.log(currentDate);
 
 document.getElementById("currentDate").textContent= currentDate;
+**/
+
+const todaysdate = new Date();
+
+const options = {weekday: 'long', day: 'numeric', month: 'long', year:'numeric'};
+document.getElementById('currentDate').textContent = todaysdate.toLocaleDateString('en-GB', options);
 
 
 

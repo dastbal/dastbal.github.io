@@ -20,12 +20,11 @@
   .large--header {
     justify-content: flex-start;
   }
-  .navigation {
-    padding: 0.3rem 0;
-  }
 
   .navigation li a {
     border: none;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
   }
   .navigation li {
     width: 100%;

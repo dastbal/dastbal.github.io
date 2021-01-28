@@ -7,6 +7,7 @@ body {
 header {
   margin: 0;
   padding: 0;
+  background-color: rgb(2, 12, 20);
 }
 .small--header {
   padding: 1rem 0;
@@ -21,16 +22,16 @@ header {
 title {
 }
 .title h1 {
-  margin: 0.3rem 0;
+  margin: 0.3rem 0 0 0;
 }
 .title p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .logo {
   width: 70px;
   margin-right: 2%;
-  margin-top: 0.7rem;
+  margin-top: 0.5rem;
 }
 .logo img {
   margin: 0;

@@ -107,10 +107,18 @@ h2 {
   margin: auto;
 }
 .hero {
-  height: 200px;
+  height: 250px;
   width: 100%;
   background-image: url(../images/heroLarge.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+}
+.summary {
+  width: 250px;
+  background-color: rgba(57, 21, 99, 0.542);
+}
+.summary-container {
+  display: flex;
 }
 .box {
   margin: 0;

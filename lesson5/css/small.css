@@ -103,8 +103,8 @@ h2 {
   text-align: center;
 }
 .main-container {
-  width: 95%;
-  margin: auto;
+  width: 96%;
+  margin: 2%;
 }
 .hero {
   height: 250px;
@@ -114,11 +114,37 @@ h2 {
   background-size: cover;
 }
 .summary {
-  width: 250px;
+  position: absolute;
+  width: 200px;
   background-color: rgba(57, 21, 99, 0.542);
+  margin: 0;
+  padding: 0;
 }
 .summary-container {
   display: flex;
+  margin: 0;
+  padding: 0;
+}
+.summary-left {
+  text-align: end;
+  margin: 0;
+  margin-left: 1rem;
+  padding: 0;
+}
+.summary-right {
+  justify-content: center;
+  margin: 0;
+  margin-left: 1rem;
+  padding: 0;
+  text-align: start;
+}
+.summary ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.forecast {
+  display: none;
 }
 .box {
   margin: 0;

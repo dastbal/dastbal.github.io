@@ -57,4 +57,20 @@
     background-size: cover;
     background-image: url(../images/heroLarge.jpg);
   }
+
+  /*////////////////////////////// forecat ////////////////////////////////////*/
+
+  .forecast {
+    display: block;
+    display: flex;
+    width: 80%;
+    margin: 10%;
+  }
+  .forecast-box {
+    width: 20%;
+  }
+  .forecast h3,
+  .forecast p {
+    text-align: center;
+  }
 }

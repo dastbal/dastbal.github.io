@@ -50,4 +50,11 @@
     display: flex;
     justify-content: space-between;
   }
+  .hero {
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../images/heroLarge.jpg);
+  }
 }

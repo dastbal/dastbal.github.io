@@ -102,11 +102,19 @@ h2 {
   font-family: "Piazzolla", serif;
   text-align: center;
 }
-
+.main-container {
+  width: 95%;
+  margin: auto;
+}
+.hero {
+  height: 200px;
+  width: 100%;
+  background-image: url(../images/heroLarge.jpg);
+  background-repeat: no-repeat;
+}
 .box {
-  margin: 1rem 0;
-  padding: 1rem 0;
-  padding-left: 1rem;
+  margin: 0;
+  padding: 0;
   border: 1px solid rgb(57, 21, 99);
   background-color: rgba(31, 110, 175, 0.658);
   font-size: 1rem;

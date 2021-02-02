@@ -1,0 +1,53 @@
+@media only screen and (min-width: 790px) {
+  header {
+    background-color: rgb(2, 12, 20);
+  }
+  .logo {
+    width: 95px;
+  }
+  header h1 {
+    font-size: 2.8rem;
+  }
+  #btn {
+    display: none;
+  }
+  .container,
+  #ham {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .large--header {
+    justify-content: flex-start;
+  }
+
+  .navigation li a {
+    border: none;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+  .navigation li {
+    width: 100%;
+  }
+  .navigation li:first-child {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    padding-left: 0;
+  }
+  .navigation li:last-child {
+    padding-right: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+  }
+  .navigation li {
+    width: 100%;
+  }
+  .navigation li:hover {
+    background-color: rgb(57, 21, 99);
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Piazzolla:wght@500;700&display=swap");
+
+body {
+  font-size: 10px;
+}
+#alert {
+  background-color: yellow;
+  width: auto;
+  padding: 0.5rem;
+}
+#alert p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+/* .alert {
+  display: none;
+} */
+
+header {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(2, 12, 20);
+}
+.small--header {
+  padding: 1rem 0;
+  font-size: 1.15rem;
+  background-color: rgb(2, 12, 20);
+  font-family: "Piazzolla", serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+title {
+}
+.title h1 {
+  margin: 0.3rem 0 0 0;
+}
+.title p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.logo {
+  width: 70px;
+  margin-right: 2%;
+  margin-top: 0.5rem;
+}
+.logo img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#btn {
+  padding: 0.5rem 0;
+  color: black;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  background-color: rgb(57, 21, 99);
+
+  color: white;
+  font-size: 1rem;
+}
+#btn:active {
+  color: white;
+  background-color: rgb(2, 12, 20);
+}
+nav {
+  background-color: rgb(31, 5, 61);
+}
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: rgb(31, 5, 61);
+}
+.navigation li {
+  margin: 0;
+  padding: 0;
+}
+.navigation li a {
+  border-top: 1px solid rgba(1, 1, 2, 0.61);
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-family: "Arimo", sans-serif;
+}
+.navigation li a:hover {
+  background-color: rgb(57, 21, 99);
+}
+.hide {
+  display: none;
+}
+h2 {
+  font-size: 1.2rem;
+  font-family: "Piazzolla", serif;
+  text-align: center;
+}
+
+.box {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  padding-left: 1rem;
+  border: 1px solid rgb(57, 21, 99);
+  background-color: rgba(31, 110, 175, 0.658);
+  font-size: 1rem;
+  font-family: "Arimo", sans-serif;
+}
+footer {
+  padding: 1rem 2%;
+  font-size: 1rem;
+  background-color: rgb(2, 12, 20);
+  font-family: "arimo", serif;
+  color: white;
+  text-align: center;
+}
+footer a {
+  color: white;
+}
+#currentDate {
+  color: yellow;
+}

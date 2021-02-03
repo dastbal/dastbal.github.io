@@ -109,7 +109,7 @@ h2 {
 .hero {
   height: 250px;
   width: 100%;
-  background-image: url(../images/heroLarge.jpg);
+  background-image: url(../images/herosmall.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -146,13 +146,43 @@ h2 {
 .forecast {
   display: none;
 }
+.article {
+  width: 100%;
+}
+.article-img {
+  width: 95%;
+  margin: 2% 2.5%;
+}
+.article-img img {
+  width: 100%;
+}
+
 .box {
   margin: 0;
   padding: 0;
-  border: 1px solid rgb(57, 21, 99);
   background-color: rgba(31, 110, 175, 0.658);
   font-size: 1rem;
   font-family: "Arimo", sans-serif;
+}
+
+.social-links {
+  display: flex;
+}
+.social-links a {
+  margin: 0;
+  padding: 0;
+}
+.social-links img {
+  width: 50px;
+}
+.map {
+  width: 96%;
+  margin: 2%;
+}
+.map img {
+  width: 100%;
+}
+.contac {
 }
 footer {
   padding: 1rem 2%;

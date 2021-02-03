@@ -3,20 +3,18 @@
 body {
   font-size: 10px;
 }
-#alert {
+
+.a {
+  display: block;
   background-color: yellow;
-  width: auto;
+
   padding: 0.5rem;
-}
-#alert p {
   font-size: 1rem;
   text-align: center;
   font-weight: bold;
   margin: 0;
+  color: black;
 }
-/* .alert {
-  display: none;
-} */
 
 header {
   margin: 0;

@@ -5,4 +5,3 @@ function ha(){
 summary.classList.toggle('down')
 ham.classList.toggle("hide")
 }
-

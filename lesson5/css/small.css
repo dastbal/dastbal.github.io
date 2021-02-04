@@ -117,7 +117,10 @@ h2 {
   background-size: cover;
 }
 /* ----------------- summary----------------- */
-.summary {
+.down {
+  top: 40%;
+}
+section {
   border-radius: 0.4rem;
   position: absolute;
   width: 200px;
@@ -125,7 +128,7 @@ h2 {
   margin: 0;
   padding: 0;
   padding-bottom: 0.5rem;
-  top: 40%;
+  top: 70%;
   left: 20%;
 }
 .summary hr {

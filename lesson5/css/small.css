@@ -116,13 +116,17 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* ----------------- summary----------------- */
 .summary {
+  border-radius: 0.4rem;
   position: absolute;
   width: 200px;
-  background-color: rgba(57, 21, 99, 0.542);
+  background-color: rgba(99, 96, 21, 0.775);
   margin: 0;
   padding: 0;
   padding-bottom: 0.5rem;
+  top: 40%;
+  left: 20%;
 }
 .summary hr {
   width: 80%;
@@ -156,23 +160,51 @@ h2 {
   margin: 0;
   padding: 0;
 }
+/*////////////////////////////// forecast////////////////////////////////////*/
+
 .forecast {
   display: none;
+}
+.forecast-header h3 {
+  padding: 0;
+  margin: 1rem auto;
+  font-family: "Piazzolla", serif;
+  font-size: 1.5rem;
+}
+.forecast-body {
+  border-right: 1px black solid;
+}
+.forecast-body p {
+  font-size: 2rem;
+  margin: 0 auto 1rem;
+  padding: 0;
+}
+.forecast-body-last {
+  border-right: none;
+}
+.forecast-body img {
+  width: 80%;
+  margin: 10%;
+  height: 100px;
 }
 /*////////////////////////////// article ////////////////////////////////////*/
 .box {
   box-shadow: 0 0 12px black;
+  margin: 1rem 0;
 
   background-color: rgba(236, 222, 234, 0.918);
   border-radius: 10px;
 }
 .article {
   width: 100%;
+  padding-top: 1rem;
 }
 .article-img {
   width: 92%;
-  margin: 4%;
-  padding-top: 1rem;
+  margin: 0 4% 4% 4%;
+
+  box-shadow: 0 0 15px black;
+  border-radius: 6px;
 }
 .article-img img {
   width: 100%;
@@ -190,7 +222,8 @@ h2 {
 
 .social-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 0 4%;
 }
 .social-links a {
   margin: 0;
@@ -206,6 +239,8 @@ h2 {
 .map img {
   width: 92%;
   margin: 4%;
+  box-shadow: 0 0 15px black;
+  border-radius: 4px;
 }
 .contact p {
   padding: 4%;

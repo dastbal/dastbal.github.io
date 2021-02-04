@@ -64,8 +64,7 @@
   .forecast {
     display: block;
     display: flex;
-    width: 80%;
-    margin: 10%;
+    width: 100%;
   }
   .forecast-box {
     width: 20%;
@@ -74,4 +73,5 @@
   .forecast p {
     text-align: center;
   }
+  /*////////////////////////////// article ////////////////////////////////////*/
 }

@@ -2,10 +2,11 @@
 
 body {
   font-size: 10px;
+  background-color: rgba(57, 21, 99, 0.234);
 }
 
 .a {
-  display: block;
+  display: none;
   background-color: yellow;
 
   padding: 0.5rem;
@@ -101,8 +102,12 @@ h2 {
   text-align: center;
 }
 .main-container {
-  width: 96%;
-  margin: 2%;
+  width: 97%;
+  margin: 1.5%;
+}
+.article-content > p {
+  margin: -0.8rem 0 2rem 0;
+  padding: 0;
 }
 .hero {
   height: 250px;
@@ -117,6 +122,15 @@ h2 {
   background-color: rgba(57, 21, 99, 0.542);
   margin: 0;
   padding: 0;
+  padding-bottom: 0.5rem;
+}
+.summary hr {
+  width: 80%;
+  margin-top: -0.5rem;
+}
+.summary li {
+  font-family: "Arimo", sans-serif;
+  font-size: 1rem;
 }
 .summary-container {
   display: flex;
@@ -128,6 +142,7 @@ h2 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
+  font-weight: bold;
 }
 .summary-right {
   justify-content: center;
@@ -144,27 +159,38 @@ h2 {
 .forecast {
   display: none;
 }
+/*////////////////////////////// article ////////////////////////////////////*/
+.box {
+  box-shadow: 0 0 12px black;
+
+  background-color: rgba(236, 222, 234, 0.918);
+  border-radius: 10px;
+}
 .article {
   width: 100%;
 }
 .article-img {
-  width: 95%;
-  margin: 2% 2.5%;
+  width: 92%;
+  margin: 4%;
+  padding-top: 1rem;
 }
 .article-img img {
   width: 100%;
 }
-
-.box {
-  margin: 0;
-  padding: 0;
-  background-color: rgba(31, 110, 175, 0.658);
-  font-size: 1rem;
+.article-content {
+  margin: 4%;
+}
+.article-content h2 {
+  text-align: start;
+}
+.article-content p:last-child {
+  padding-bottom: 1rem;
   font-family: "Arimo", sans-serif;
 }
 
 .social-links {
   display: flex;
+  justify-content: center;
 }
 .social-links a {
   margin: 0;
@@ -174,13 +200,19 @@ h2 {
   width: 50px;
 }
 .map {
-  width: 96%;
-  margin: 2%;
+  width: 98%;
+  margin: 1%;
 }
 .map img {
-  width: 100%;
+  width: 92%;
+  margin: 4%;
 }
-.contac {
+.contact p {
+  padding: 4%;
+}
+p {
+  font-size: 1rem;
+  font-family: "Arimo", sans-serif;
 }
 footer {
   padding: 1rem 2%;

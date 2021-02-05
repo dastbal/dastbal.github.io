@@ -4,11 +4,14 @@ body {
   font-size: 10px;
   background-color: rgba(57, 21, 99, 0.234);
 }
+main .title {
+  font-size: 2rem;
+  text-align: start;
+}
 
 .a {
   display: none;
   background-color: yellow;
-
   padding: 0.5rem;
   font-size: 1rem;
   text-align: center;
@@ -85,14 +88,21 @@ nav {
   padding: 0.5rem;
   font-size: 1rem;
   color: white;
+
   text-decoration: none;
   display: flex;
   justify-content: center;
   font-family: "Arimo", sans-serif;
 }
-.navigation li a:hover {
-  background-color: rgb(57, 21, 99);
+
+/* .navigation li a:visited {
+  color: rgba(194, 194, 194, 0.768);} */
+
+.navigation li a:active {
+  color: yellow;
+  background-color: rgba(31, 5, 61, 0.645);
 }
+
 .hide {
   display: none;
 }
@@ -109,6 +119,7 @@ h2 {
   margin: -0.8rem 0 2rem 0;
   padding: 0;
 }
+
 .hero {
   height: 250px;
   width: 100%;
@@ -118,7 +129,7 @@ h2 {
 }
 /* ----------------- summary----------------- */
 .down {
-  top: 40%;
+  top: 45%;
 }
 section {
   border-radius: 0.4rem;
@@ -129,7 +140,7 @@ section {
   padding: 0;
   padding-bottom: 0.5rem;
   top: 70%;
-  left: 20%;
+  left: 8%;
 }
 .summary hr {
   width: 80%;
@@ -149,6 +160,7 @@ section {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
+  color: black;
   font-weight: bold;
 }
 .summary-right {
@@ -156,6 +168,7 @@ section {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
+  color: white;
   text-align: start;
 }
 .summary ul {
@@ -222,6 +235,9 @@ section {
   padding-bottom: 1rem;
   font-family: "Arimo", sans-serif;
 }
+.contact span:first-child {
+  font-weight: bold;
+}
 
 .social-links {
   display: flex;
@@ -247,6 +263,7 @@ section {
 }
 .contact p {
   padding: 4%;
+  text-align: start;
 }
 p {
   font-size: 1rem;
@@ -266,3 +283,7 @@ footer a {
 #currentDate {
   color: yellow;
 }
+
+#active {
+  font-weight: bold;
+  color: yellow;

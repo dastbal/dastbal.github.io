@@ -121,13 +121,20 @@ h2 {
 .hero {
   height: 250px;
   width: 100%;
-  background-image: url(../images/herosmall.jpg);
+  /* background-image: url(../images/herosmall.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+}
+.hero picture img {
+  width: 100%;
+  height: 100%;
+  /* background-image: url(../images/herosmall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 /* ----------------- summary----------------- */
 .down {
-  top: 45%;
+  top: 50%;
 }
 section {
   border-radius: 0.4rem;

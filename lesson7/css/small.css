@@ -327,3 +327,10 @@ figure:hover{
   padding: 0;
   
 }
+.gallery-container img{
+  filter: blur(0.2em);
+  transition: filter  1.5s;
+}
+.gallery-container .blur {
+  filter: blur(0em);
+}

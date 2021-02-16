@@ -15,7 +15,7 @@ img{
 
 article img{
     filter: blur(0.2em);
-    transition: filter  3s;
+    transition: filter  2s;
 }
 .blur {
     filter: blur(0em);

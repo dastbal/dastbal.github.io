@@ -1,6 +1,6 @@
 body {
   font-size: 10px;
-  background-color: rgba(57, 21, 99, 0.234);
+  background-color: rgba(57, 21, 99, 0.097);
 }
 main .title {
   font-size: 2rem;
@@ -297,4 +297,33 @@ footer a {
 
 /* gallery////////////////////////////////////////////////////////////////////////////// */
 
+.gallery-container{
+  margin-bottom: 3rem;
+  
+}
+.gallery-title{
+  font-size: 2rem;
+  text-align: start;
+  margin-left: 10%;
+}
+figure{
+  width: 80%;
+  margin: 2rem 10%;
+  background-color: white;
+  border-radius: 3px;
+  overflow: hidden;
+}
+figure:hover{
 
+  box-shadow: 2px 4px 22px 2px black;
+}
+
+.gallery-hide {
+  display:none;
+}
+.gallery-container figure img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+}

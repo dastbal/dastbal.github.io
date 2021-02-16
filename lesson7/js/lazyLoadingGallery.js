@@ -11,7 +11,7 @@ const observer = new IntersectionObserver( (entries,observer)=>{
             entry.target.className="blur"
         }
     })
-} ,{  root:null, rootMargin: '0px 0px 100px 0px' ,threshold:0.1}
+} ,{  root:null, rootMargin: '0px 0px 50px 0px' ,threshold:0.1}
     )
     const load =(img)=> {
         img.src=img.dataset.src

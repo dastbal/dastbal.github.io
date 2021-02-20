@@ -7,11 +7,11 @@
       name="description"
       content=" Magic Weather site for David Balladares in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
     />
-    <link rel="stylesheet" href="./css/normalize.css">
+    <link  rel="stylesheet" href="./css/normalize.css">
     <link rel="shortcut icon" href="./favicon.ico" >
-    <link rel="stylesheet" href="./css/small.css">
-    <link rel="stylesheet" href="./css/medium.css" >
-    <link rel="stylesheet" href="./css/large.css"  >
+    <link rel="stylesheet" href="./css/small.css"  >
+    <link rel="stylesheet" href="./css/medium.css" media="screen and (min-width: 500px) and (max-width: 879px)">
+    <link rel="stylesheet" href="./css/large.css" media="screen and (min-width: 880px)" >
     <title>Gallery | Magic Weather</title>
 </head>
 <body >
@@ -151,11 +151,12 @@
         
 
         </footer>
-    <script src="./js/currentdate.js"></script>
-    <script src="./js/summaryAndToggle.js" ></script>
+    <script defer src="./js/currentdate.js"></script>
+    <script defer src="./js/summaryAndToggle.js" ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="./js/webFontLoad.js"></script>
-    <script src="./js/lazyLoadingGallery.js"></script>
+    <script async src="./js/lazyLoadingGallery.js"></script>
+    
     
 </body>
 </html>

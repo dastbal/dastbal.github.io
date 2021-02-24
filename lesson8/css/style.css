@@ -7,29 +7,26 @@ table, th ,tr , td  {
     border: 1.5px solid  #b3afaf;
     border-collapse: collapse;
     text-align: center;
-    font-family:  "Ubuntu" , sans-serif ;
+    font-family:  'Ubuntu'  ;
     padding: 0.4rem 0.7rem ;
 }
 tbody tr{
     font-size: 0.95rem;
-    font-family:  "Ubuntu" , sans-serif ;
+    font-family:  'Ubuntu'  ;
 }
-#i{
-    font-style: italic;
-    
-}
-thead tr:first-child{
+
+thead tr th{
     font-size: 1.5rem;
     color: black;
     background-color: #7fb9c2 ;
 }
-thead tr:last-child{
+thead tr td{
     font-size: 1.1rem;
     color: white;
     font-weight: bold;
     background-color:#628ca6 ;
 }
-tbody tr:nth-child(odd){
+tbody tr{
     color: rgb(43, 42, 42);
     background-color: #e7f0ed;
     

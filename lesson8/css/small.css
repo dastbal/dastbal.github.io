@@ -334,3 +334,73 @@ figure:hover{
 .gallery-container .blur {
   filter: blur(0em);
 }
+
+
+
+/**                 storm center  page form  ****************************** **/ 
+ form fieldset {
+   border-radius: 0.5rem;
+   margin: 4%;
+   padding: 0;
+ }
+ form fieldset legend{
+   font-size: 1.4rem;
+   padding: 0 0.5rem;
+ }
+ form label{
+   display: block;
+   font-size: 1rem;
+   margin: 1rem 2%;
+ }
+ form fieldset textarea {
+  display: block;
+}
+form fieldset input , select {
+   display: block;
+   width: 98%;
+   max-width: 800px;
+   margin-left: 0;
+   height: 2.5rem;
+   border: none;
+   border-radius: 0.5rem;
+   background-color: rgba(31, 5, 61, 0.712);
+   
+ }
+ form fieldset:first-child span{
+   color: red;
+ }
+ input::placeholder , input[type=date] , select{
+   color: white;
+ }
+ 
+ 
+ .ratio  {
+   
+ width: 96%;
+ margin: auto;
+  
+}
+.ratio input{
+  margin: 0 1rem  0 0;
+  width: 1.5rem;
+  
+}
+.ratio label{
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+#btn-report{
+  display: block;
+   width: 92%;
+   margin-left: 4%;
+   max-width: 800px;
+   
+   height: 2.5rem;
+   border: none;
+   border-radius: 0.5rem;
+   background-color: rgba(31, 5, 61, 0.712);
+}
+
+ 
+ 

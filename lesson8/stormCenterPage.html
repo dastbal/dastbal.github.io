@@ -52,24 +52,24 @@
             <form action="./thanks.html">
                 <fieldset>
                     <legend>Personal Information  </legend>
-                    <label for="f_name"> Full name <span>*</span><input type="text" required  name="f_name"  pattern="[A-Za-z\s]{8,}"></label>
-                    <label for="f_email">Email <input type="email" placeholder="user@gmail.com" name="f_email" ></label>
-            <label for="p_number">Phone <span>*</span> <input type="tel" name="p_number" required></label>
-            <label for="zid_code">Zip Code <span>*</span> <input name="zip_code" type="number" required></label>
+                    <label for="f_name"> Full name <span>*</span><input type="text" required id="f_name" name="f_name"  pattern="[A-Za-z\s]{8,}"></label>
+                    <label for="f_email">Email <input type="email" id="f_email" placeholder="user@gmail.com" name="f_email" ></label>
+            <label for="p_number">Phone <span>*</span> <input id="p_number" type="tel" name="p_number" required></label>
+            <label for="zid_code">Zip Code <span>*</span> <input id="zid_code" name="zip_code" type="number" required></label>
 
         </fieldset>
         <fieldset>
             <legend> About the Storm  </legend>
-            <label for="f_date">Storm Date <input type="date" name="f_date" ></label>
+            <label for="f_date">Storm Date <input id="f_date" type="date" name="f_date" ></label>
             <label for="storm_type"> Sorm Type
-                <input name="storm_type" list="list" >
+                <input id="storm_type" name="storm_type" list="list" >
                 <datalist id="list">
                     <option value="Flash Flood"></option>
                     <option value="Hail"></option>
                     <option value="Hurricane"></option>
                     <option value="Thunderstorm"></option>
                     <option value="Tornado"></option>
-                </datalist>
+                </datalist> 
             </label>
             <label for="severity">
                 Storm severity :
@@ -88,19 +88,7 @@
                                     <option value="9">
                                         <option value="10">
                                         </datalist>
-                                        <datalist id="list_2">
-                                            <option value="0">
-                    <option value="1">
-                        <option value="2">
-                            <option value="3">
-                                <option value="4">
-                                    <option value="5">
-                                        <option value="6">
-                                            <option value="7">
-                    <option value="8">
-                        <option value="9">
-                            <option value="10">
-                </datalist>
+                                       
             </label>
             <label for="region"> Storm Region
                 <select name="region" id="region">

@@ -341,7 +341,7 @@ figure:hover{
  form fieldset {
    border-radius: 0.5rem;
    margin: 4%;
-   padding: 0;
+   padding: 1rem 0;
  }
  form fieldset legend{
    font-size: 1.4rem;
@@ -355,18 +355,23 @@ figure:hover{
  form fieldset textarea {
   display: block;
 }
-form fieldset input , select {
+form fieldset input , textarea , select {
    display: block;
    width: 95%;
-   padding-left: 3%;
-   max-width: 800px;
+   padding-left: 2%;
+   max-width: 400px;
    margin-left: 0;
    height: 2.5rem;
    border: none;
    border-radius: 0.5rem;
-   background-color: rgba(31, 5, 61, 0.712);
+   background-color: rgba(31, 5, 61, 0.74);
    color: white;
    
+ }
+
+ textarea{
+   height: 5rem;
+   padding-top: 1rem;
  }
  select{
    width: 98%;
@@ -377,6 +382,22 @@ form fieldset input , select {
  input::placeholder , input[type=date] , select{
    color: white;
  }
+ .thanks{
+   height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+form fieldset input:required{
+  border-left: 5px solid red;
+  width: 93.5%;
+}
+form fieldset input:required:valid{
+  border-left: 5px solid green;
+}
+
+
  
  
  .ratio  {
@@ -386,27 +407,34 @@ form fieldset input , select {
   
 }
 .ratio input{
-  margin: 0 1rem  0 0;
+  margin: 0 0.5rem  0 0;
   width: 1.5rem;
   
 }
 .ratio label{
   display: flex;
   margin: 0;
+  margin-top: -0.6rem;
   align-items: center;
 }
 #btn-report{
   display: block;
    width: 92%;
    margin:0 0 2rem 4%;
-   max-width: 800px;
+   max-width: 420px;
    color: white;
    font-size: 1.2rem;
-   padding: 1rem 0;
+   padding: 0.8rem 0;
    border: none;
    border-radius: 1rem;
-   background-color: rgba(31, 5, 61, 0.918);
+   background-color: rgba(27, 5, 53, 0.918);
 }
-
+#btn-report:hover{
+  background-color: rgb(2, 12, 20);
+}
+form fieldset label{
+  font-size: 1rem;
+  color: rgb(2, 12, 20);
+}
  
  

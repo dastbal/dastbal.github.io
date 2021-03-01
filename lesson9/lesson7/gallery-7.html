@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content=" Magic Weather site for David Balladares in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link  rel="stylesheet" href="./css/normalize.css">
+    <link rel="shortcut icon" href="./favicon.ico" >
+    <link rel="stylesheet" href="./css/small.css"  >
+    <link rel="stylesheet" href="./css/medium.css" media="screen and (min-width: 500px) and (max-width: 879px)">
+    <link rel="stylesheet" href="./css/large.css" media="screen and (min-width: 880px)" >
+    <title>Gallery | Magic Weather</title>
+</head>
+<body >
+    <header>
+        <p class="a" >
+                Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+                
+        </p>
+        <div class="container small--header large--header">
+
+            <div class="logo"> 
+                <a href="../index.html">
+                    <img  src="./images/logo.png" alt="principal logo of the Magic Weather site">
+                </a>
+            </div>
+            <div class="title" >
+
+                <h1> Magic Weather</h1>
+                <p> Know more bout this magic weather</p>
+            </div>
+            </div>
+
+    </header>
+    <nav id="nav">
+        <button id="btn"  onclick="burger()"  >&#9776; Menu</button>
+        <ul id="ham" class="navigation hide ">
+            <li ><a href="../index.html"> Home</a></li>
+            <li ><a  href="../lesson5/preston-5.html">Preston</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="../lesson8/stormCenterPage.html">Storm Center</a></li>
+            <li ><a id="active" href="./gallery-7.html">Gallery</a></li>
+            <li><a href="">Soda Springs</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="gallery-title">Weather Gallery</h2>
+        <div class="gallery-container">
+            <figure>
+                <img src="./images/placeholder.jpg" data-src="./images/summer.jpg" alt="">
+                <figcaption  class="gallery-hide">Summer weather</figcaption>
+            
+            </figure>
+            <figure>
+                <img src="./images/placeholder.jpg" data-src="./images/summer2.jpg" alt="">
+                <figcaption  class="gallery-hide">Summer weather</figcaption>
+            
+            </figure>
+            <figure>
+                <img src="./images/placeholder.jpg" data-src="./images/snow.jpg" alt="">
+                <figcaption  class="gallery-hide">Snow weather</figcaption>
+            
+            </figure>
+            <figure>
+                <img class="h" src="./images/placeholder.jpg" data-src="./images/snow2.jpg" alt="">
+                <figcaption  class="gallery-hide">Snow weather</figcaption>
+            
+            </figure>
+            <figure>
+                <img src="./images/placeholder.jpg" data-src="./images/rain.jpg" alt="">
+                <figcaption  class="gallery-hide">Rain weather</figcaption>
+            
+            </figure>
+            <figure>
+                <img class="h" src="./images/placeholder.jpg" data-src="./images/rain2.jpg" alt="">
+                <figcaption  class="gallery-hide">Rain weather</figcaption>
+            
+            </figure>
+            <figure>
+                <img src="./images/placeholder.jpg" data-src="./images/spring.jpg" alt="">
+                <figcaption  class="gallery-hide">Spring weather</figcaption>
+            
+            </figure>
+            <figure>
+                <img  src="./images/placeholder.jpg" data-src="./images/skyv.jpg" alt="">
+                <figcaption  class="gallery-hide">Sky weather</figcaption>
+            
+            </figure>
+            <figure>
+                <img class="h" src="./images/placeholder.jpg" data-src="./images/fallv.jpg" alt="">
+                <figcaption class="gallery-hide ">Fall weather</figcaption>
+            
+            </figure>
+        </div>
+       
+        </main>
+        <footer>
+            <div class="container small-footer">
+                <div class="contact-information">
+                    <div class="contact" >
+                        <p>
+                        <span> Contact Information</span>
+                        <br>
+                        <br>
+                        <span> Magic Weather</span>
+                        <br>
+                        30 N 2st O
+                        <br>
+                        Preston, ID 857539
+                        <br>
+                        <br>
+                        &#128222;999-9999-9999
+                        <br>
+                        &#128231;weathermagic@magic.net
+                    </p>
+                    </div>
+                    <div class="social-links">
+                        
+                        <a target="_blank" href="https://www.facebook.com">
+                            
+                            <img loading="lazy" src="./images/049-facebook.png" alt="facebook icon">
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com">
+
+                            <img loading="lazy" src="./images/060-instagram.png" alt="Instagram icon">
+                        </a>
+                        <a target="_blank" href="https://www.twitter.com">
+                            
+                            <img loading="lazy" src="./images/027-twitter.png" alt="Twitter icon">
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com">
+                            
+                            <img loading="lazy" src="./images/038-youtube.png" alt="YoutubeIcon">
+                        </a>
+                    </div>
+                    <div class="map">
+                        <img loading="lazy" src="./images/map.png" alt=" picture of the map">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <p> &copy;2021 | David Balladares | Guayaquil-Ecuador | <a target="_blank" href="https://www.byui.edu/online">BYUI Online Learning</a> <br>
+                
+
+                <span id="currentDate"></span>
+            </p> 
+        
+
+        </footer>
+    <script defer src="./js/currentdate.js"></script>
+    <script defer src="./js/summaryAndToggle.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="./js/webFontLoad.js"></script>
+    <script async src="./js/lazyLoadingGallery.js"></script>
+    
+    
+</body>
+</html>

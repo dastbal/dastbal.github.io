@@ -1,0 +1,28 @@
+@media only screen and (min-width: 500px) and (max-width: 789px) {
+  .large--header {
+    justify-content: flex-start;
+  }
+  .container,
+  #ham,
+  main {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .hero {
+    height: 300px;
+    width: 100%;
+    /* background-size: cover;
+    background-image: url(../images/heromedium.jpg); */
+  }
+  section {
+    border-radius: 0.4rem;
+    position: absolute;
+    width: 200px;
+    background-color: rgba(99, 96, 21, 0.775);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.5rem;
+    top: 80%;
+    left: 8%;
+  }
+}

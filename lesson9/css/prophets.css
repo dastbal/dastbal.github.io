@@ -1,9 +1,15 @@
 
+
+body{
+    background-color: rgba(113, 113, 236, 0.479);
+}
 h1{
     text-align: center;
     font-family: 'piazzolla';
+    color: rgb(207, 39, 17);
 }
 h2{
+    color: rgb(207, 39, 17);
     font-family: 'piazzolla';
     margin: 0;
     padding: 0.5rem;
@@ -11,15 +17,17 @@ h2{
 
 .cards{
     margin: 0;
-
+    
 }
 section{
+    background-color: rgba(197, 197, 201, 0.521);
     width: 95%;
     max-width: 278px;
     margin: 0.5rem auto;
     padding: 0;
     text-align: center;
-    border: 1px solid blue;
+    border: 1px solid rgb(140, 148, 168);
+    border-radius: 0.5rem;
 
 }
 section p {

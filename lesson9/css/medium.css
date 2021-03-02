@@ -105,6 +105,9 @@ div.town-data > div  div {
 }
 div.town-data > div  img {
   width: 40%;
+  max-width: 250px;
+  height: 200px;
+  margin: 2rem 0;
 }
  
 

@@ -23,7 +23,7 @@ fetch(requestURL)
             let p2 =document.createElement('p');
             let p3 =document.createElement('p');
             let img = new Image
-            img.setAttribute('src', '../placeholder.jpg' /**town.photo**/);
+            img.setAttribute('src', "./placeholder.jpg" );
             //   img.setAttribute('data-src', prophet.imageurl);
             img.setAttribute('alt', town.name + ' City' );
             

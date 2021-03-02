@@ -441,11 +441,34 @@ form fieldset label{
 div.town-data {
   
 }
-div.town-data  div {
+div.town-data h2{
+  font-family: 'Piazzolla';
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  
+}
+div.town-data span{
+  font-weight: bold;
+  font-family: 'Piazzolla';
+  
+  font-size: 1rem;
+  
+}
+
+div.town-data > div {
 
   width: 100%;
   text-align: center;
   justify-content: center;
+  background-color: rgba(31, 5, 61, 0.377); 
+   margin: 1rem 0;
+  
+  
+}
+div.town-data > div img {
+
+  margin: 1rem 0;
   
   
 }

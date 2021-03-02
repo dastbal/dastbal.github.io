@@ -250,3 +250,16 @@ div.town-data > div {
   
   
 }
+div.town-data p{
+  margin: 1rem 0;
+}
+div.town-data > div > div p:first-of-type{
+  margin-top: 2rem;
+}
+div.town-data > div:last-of-type > div p:first-of-type{
+  margin-top: 1rem;
+}
+div.town-data > div:last-child p:first-child{
+  
+  
+}

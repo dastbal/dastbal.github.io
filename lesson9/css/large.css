@@ -232,3 +232,21 @@ form fieldset {
 select{
   max-width: 420px;
 }
+
+
+/**                   HOME                 **/
+div.town-data{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 880px;
+  max-width: 1000px;
+  margin: auto;
+  justify-content: space-between;
+}
+div.town-data > div {
+  width: 290px;
+  border: 1px solid blue;
+  
+  
+}

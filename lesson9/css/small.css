@@ -436,5 +436,18 @@ form fieldset label{
   font-size: 1rem;
   color: rgb(2, 12, 20);
 }
+
+/**                   HOME                 **/
+div.town-data {
+  
+}
+div.town-data  div {
+
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  
+  
+}
  
  

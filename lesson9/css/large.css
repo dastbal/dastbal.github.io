@@ -250,6 +250,10 @@ div.town-data > div {
   
   
 }
+div.town-data > div div {
+  width: 95%;
+  margin: auto;
+}
 div.town-data p{
   margin: 1rem 0;
 }

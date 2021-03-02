@@ -455,7 +455,9 @@ div.town-data span{
   font-size: 1rem;
   
 }
-
+div.town-data > div > div p:first-of-type{
+  margin-top: 1.5rem;
+}
 div.town-data > div {
 
   width: 100%;

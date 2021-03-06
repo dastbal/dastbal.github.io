@@ -487,6 +487,16 @@ div.town-data > div img {
 #home-article-img img {
   height: 300px;
 }
+.wireframes{
+  display: block;
+}
+.wireframes a{
+  text-align: center;
+  margin: 3rem auto;
+  text-decoration: none;
+  font-size: 2.5rem;
+  display: block;
+}
 
  
  

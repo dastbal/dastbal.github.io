@@ -82,11 +82,12 @@
     text-align: center;
   }
   /*////////////////////////////// article ////////////////////////////////////*/
-  .article-img {
+  .article-img , #home-article-img {
     margin-top: 2rem;
     width: 30%;
     float: right;
   }
+
 
   /*////////////////////////////// contact information ////////////////////////////////////*/
   .contact-information {
@@ -245,7 +246,7 @@ div.town-data{
   justify-content: space-between;
 }
 
-.home-hero  {
+.home-hero, .home-article {
   
   max-width: 1000px;
   margin: 0 auto;
@@ -277,4 +278,8 @@ div.town-data > div:last-of-type > div p:first-of-type{
 div.town-data > div:last-child p:first-child{
   
   
+}
+
+#home-article-img  {
+  margin-right: 5%;
 }

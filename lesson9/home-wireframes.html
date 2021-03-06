@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/small.css"  >
     <link rel="stylesheet" href="./css/medium.css" media="screen and (min-width: 500px) and (max-width: 879px)">
     <link rel="stylesheet" href="./css/large.css" media="screen and (min-width: 880px)" >
-    <title> Home | Magic Weather</title>
+    <title>storm Center | Magic Weather</title>
 </head>
 <body >
     <header>
@@ -23,7 +23,7 @@
         <div class="container small--header large--header">
 
             <div class="logo"> 
-                <a href="./index.html">
+                <a href="../index.html">
                     <img  src="./images/logo.png" alt="principal logo of the Magic Weather site">
                 </a>
             </div>
@@ -38,57 +38,19 @@
     <nav id="nav">
         <button id="btn"  onclick="burger()"  >&#9776; Menu</button>
         <ul id="ham" class="navigation hide ">
-            <li ><a id="active" href=""> Home</a></li>
-            <li ><a  href="./lesson5/preston-5.html">Preston</a></li>
+            <li ><a href="../index.html"> Home</a></li>
+            <li ><a  href="../lesson5/preston-5.html">Preston</a></li>
             <li><a href="">Fish Haven</a></li>
-            <li><a   href="./lesson8/stormCenterPage.html">Storm Center</a></li>
-            <li ><a href="./lesson7/gallery-7.html">Gallery</a></li>
+            <li><a id="active"  href="./stormCenterPage.html">Storm Center</a></li>
+            <li ><a href="../lesson7/gallery-7.html">Gallery</a></li>
             <li><a href="">Soda Springs</a></li>
         </ul>
     </nav>
     <main>
-        <div class="main_container">
-
-            <h2 class="home-title" >Preston Idaho</h2>
-            <div class="home-hero">
-                    <picture>
-                        <source  media="(min-width:500px) and (max-width: 789px)" srcset="./images/homeHeroSmall.jpg">
-                            <source  media="(min-width: 880px)" srcset="./images/homeHeroLarge.jpg">
-                                <img src="./images/homeHeroSmall.jpg" alt="hero photo">
-                            </picture>
-            </div>
-            <div loading="lazy"  class="town-data"></div>
-        </div>
-        
-        <div class="box article home-article"> 
-            <div id="home-article-img">
-                <img loading="lazy" src="./lesson7/images/summer.jpg" alt="image about the weather">
-            </div>
-            <div class="article-content home-article-content">
-                <h2 class="title">
-                    5 Ways to Take Advantage of the Summer
-                </h2>
-                <p> by Kevin cutt</p>
-                <p>
-                    
-                    Winter storm warnings were in place for a large part of the Eastern United States on Sunday, from northwestern North Carolina to New York, with as much as two feet of snow and dangerous travel conditions expected in some places into Tuesday, forecasters said.
-                    
-                    The heaviest snow will probably fall in northeastern Pennsylvania and northwestern New Jersey, according to Bob Oravec, a lead forecaster with the National Weather Service who is based in Baltimore.
-                    
-                    “It’s pushing eastward and it’s starting to snow into the Mid-Atlantic up into the Northeast,” Mr. Oravec said. “And we do anticipate a pretty broad area of potentially heavy snows.”
-                    
-                    Snow is accumulating
-                    The storm brought more than six feet of snow and heavy rain to California last week before moving through the Midwest, leaving about eight inches of snow in Chicago, the National Weather Service said.
-                    
-                    ADVERTISEMENT
-                    
-                    Continue reading the main story
-                    
-                    Snow is expected in major metropolitan areas, from Washington, D.C., to Philadelphia, New York City and Boston, as well inland across northeastern Pennsylvania, upstate New York and most of New England, Mr. Oravec said.   </p>
-            </div>
-        </div>
-                        </main>
-    
+        <img src="" alt="Wireframe 1">
+        <img src="" alt="Wireframe 2">
+        <img src="" alt="Wireframe 3">
+    </main>
     <footer>
         <div class="container small-footer">
             <div class="contact-information">
@@ -136,7 +98,6 @@
             </div>
 
             <p> &copy;2021 | David Balladares | Guayaquil-Ecuador | <a target="_blank" href="https://www.byui.edu/online">BYUI Online Learning</a> <br>
-            <p> <a target="_blank" href="./home-wireframes.html" style="font-size: 1.5rem;">  >>>>home-wireframes.html<<<<< </a> <br>
                 
 
                 <span id="currentDate"></span>
@@ -146,14 +107,14 @@
         </footer>
     <script defer src="./js/currentdate.js"></script>
     <script defer src="./js/summaryAndToggle.js" ></script>
-    <script defer src="./js/town-data.js" ></script>
-    <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script defer src="./js/webFontLoad.js"></script>
-    <Script defer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="./js/webFontLoad.js"></script>
+    <script async src="./js/lazyLoadingGallery.js"></script>
+    <SCript>
         function adjustRating(rating) {
   document.getElementById("severityValue").innerHTML = rating;
 }
-    </Script>
+    </SCript>
     
 </body>
 </html>

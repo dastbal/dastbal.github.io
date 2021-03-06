@@ -52,9 +52,8 @@
             
             <div class="home-hero">
                     <picture>
-                        <source  media="(min-width:500px) and (max-width: 789px)" srcset="./images/homeHeroSmall.jpg">
-                            <source  media="(min-width: 880px)" srcset="./images/homeHeroLarge.jpg">
-                                <img src="./images/homeHeroSmall.jpg" alt="hero photo">
+                            <source media="(min-width: 880px)" srcset="./images/homeHeroLarge.jpg">
+                                <img loading="lazy" src="./images/homeHeroSmall.jpg" alt="hero photo">
                             </picture>
             </div>
             <div   class="town-data"></div>
@@ -149,11 +148,7 @@
     <script defer src="./js/town-data.js" ></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script defer src="./js/webFontLoad.js"></script>
-    <Script >
-        function adjustRating(rating) {
-  document.getElementById("severityValue").innerHTML = rating;
-}
-    </Script>
+       
     
 </body>
 </html>

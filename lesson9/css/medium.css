@@ -104,10 +104,14 @@ div.town-data > div  div {
   width: 35%;
 }
 div.town-data > div  img {
-  width: 40%;
-  max-width: 250px;
+  width: 50%;
+  max-width: 300px;
   height: 200px;
   margin: 2rem 0;
+}
+.home-hero img  {
+  
+  height: 350px;
 }
  
 

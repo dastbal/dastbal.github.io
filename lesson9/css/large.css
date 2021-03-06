@@ -244,6 +244,17 @@ div.town-data{
   margin: auto;
   justify-content: space-between;
 }
+
+.home-hero  {
+  
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.home-hero img  {
+  
+  height: 400px;
+}
+ 
 div.town-data > div {
   width: 290px;
   border: 1px solid blue;

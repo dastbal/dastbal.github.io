@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
-      name="description"
+    name="description"
       content=" Magic Weather site for David Balladares in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
-    />
-    <link rel="shortcut icon" href="favicon.ico" >
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="./css/small.css">
-    <link rel="stylesheet" href="./css/medium.css" >
-    <link rel="stylesheet" href="./css/large.css"  >
-    <title>Home | Magic Weather</title>
+      />
+    <link  rel="stylesheet" href="./css/normalize.css">
+    <link rel="shortcut icon" href="./favicon.ico" >
+    <link rel="stylesheet" href="./css/small.css"  >
+    <link rel="stylesheet" href="./css/medium.css" media="screen and (min-width: 500px) and (max-width: 879px)">
+    <link rel="stylesheet" href="./css/large.css" media="screen and (min-width: 880px)" >
+    <title> Home | Magic Weather</title>
 </head>
 <body >
     <header>
@@ -24,7 +24,7 @@
 
             <div class="logo"> 
                 <a href="./index.html">
-                    <img  src="./images/logo.png" alt="principal logo of the Magic Weather site">
+                    <img  src="./images/logo.webp" alt="principal logo of the Magic Weather site">
                 </a>
             </div>
             <div class="title" >
@@ -32,33 +32,34 @@
                 <h1> Magic Weather</h1>
                 <p> Know more bout this magic weather</p>
             </div>
-            </div>
-
+        </div>
+ 
     </header>
     <nav id="nav">
-        <button id="btn"  onclick="ha()"  >&#9776; Menu</button>
+        <button id="btn"  onclick="burger()"  >&#9776; Menu</button>
         <ul id="ham" class="navigation hide ">
             <li ><a href="./index.html"> Home</a></li>
-            <li ><a id="active" href="./preston-10.html">Preston</a></li>
+            <li ><a id="active"  href="./preston-10.html">Preston</a></li>
             <li><a href="">Fish Haven</a></li>
-            <li><a href="./lesson8/stormCenterPage.html">Storm Center</a></li>
+            <li><a   href="./lesson8/stormCenterPage.html">Storm Center</a></li>
             <li ><a href="./lesson7/gallery-7.html">Gallery</a></li>
             <li><a href="">Soda Springs</a></li>
         </ul>
     </nav>
+    
     <main>
         <div class="grid main-container"> 
-
+    
             
        
-
+    
             <h2 class="title" >Preston Idaho</h2>
             <div class="box preston--box-hero">
                 <div class="hero">
                     <picture>
-                        <source  media="(min-width:500px) and (max-width: 789px)" srcset="./images/md.webp">
-                        <source  media="(min-width: 790px)" srcset="./images/lg.webp">
-                            <img src="./images/sm.webp" alt="hero photo">
+                        <source  media="(min-width:500px) and (max-width: 789px)" srcset="./images/heromedium.webp">
+                        <source  media="(min-width: 790px)" srcset="./images/heromedium.webp">
+                            <img src="./images/herosmall.webp" alt="hero photo">
                     </picture>
                     
                 </div>
@@ -88,7 +89,7 @@
                     </div>
                         
                 </section>
-
+    
                 
             </div>
             <h2 class="title"> 5 Days Forescast</h2>
@@ -142,7 +143,7 @@
             </div>
             <div class="box article"> 
                 <div class="article-img">
-                    <img loading="lazy" src="./images/articleLarge.jpg" alt="image about the weather">
+                    <img loading="lazy" src="./images/articleSmall.webp" alt="image about the weather">
                 </div>
                 <div class="article-content">
                     <h2 class="title">
@@ -168,12 +169,12 @@
                 </div>
             </div>
         
-
-
-
+    
+    
+    
             
         </div>
-
+    
                 <!-- <div class="box contact-information">
                     <div class="contact" >
                         <p>
@@ -199,7 +200,7 @@
                             <img src="./images/049-facebook.png" alt="facebook icon">
                         </a>
                         <a href="">
-
+    
                             <img src="./images/060-instagram.png" alt="Instagram icon">
                         </a>
                         <a href="">
@@ -218,9 +219,10 @@
                 </div>
             </div> -->
         </main>
-        <footer>
-            <div class="container small-footer">
-                <div class="contact-information">
+    
+    <footer>
+        <div class="container small-footer">
+            <div class="contact-information">
                     <div class="contact" >
                         <p>
                         <span> Contact Information</span>
@@ -242,19 +244,19 @@
                         
                         <a target="_blank" href="https://www.facebook.com">
                             
-                            <img src="./images/049-facebook.png" alt="facebook icon">
+                            <img loading="lazy" src="./images/049-facebook.webp" alt="facebook icon">
                         </a>
                         <a target="_blank" href="https://www.instagram.com">
 
-                            <img src="./images/060-instagram.png" alt="Instagram icon">
+                            <img loading="lazy" src="./images/060-instagram.webp" alt="Instagram icon">
                         </a>
                         <a target="_blank" href="https://www.twitter.com">
                             
-                            <img src="./images/027-twitter.png" alt="Twitter icon">
+                            <img loading="lazy" src="./images/027-twitter.webp" alt="Twitter icon">
                         </a>
                         <a target="_blank" href="https://www.youtube.com">
                             
-                            <img src="./images/038-youtube.png" alt="YoutubeIcon">
+                            <img loading="lazy" src="./images/038-youtube.webp" alt="YoutubeIcon">
                         </a>
                     </div>
                     <div class="map">
@@ -265,6 +267,7 @@
             </div>
 
             <p> &copy;2021 | David Balladares | Guayaquil-Ecuador | <a target="_blank" href="https://www.byui.edu/online">BYUI Online Learning</a> <br>
+            <p> <a target="_blank" href="./home-wireframes.html" style="font-size: 1.5rem;">  home-wireframes.html </a> <br>
                 
 
                 <span id="currentDate"></span>
@@ -273,12 +276,11 @@
 
         </footer>
     <script defer src="./js/currentdate.js"></script>
-    <script defer src="./js/alert.js" ></script>
-    <script async src="./js/summaryAndToggle.js" ></script>
+    <script defer src="./js/summaryAndTogglePreston.js" ></script>
+    <script defer src="./js/town-data.js" ></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script de  src="./js/webFontLoad.js"></script>
-    <script src="./js/weatherSummary.js"></script>
-    <script defer src="./js/windChill.js"></script>
+    <script defer src="./js/webFontLoad.js"></script>
+       
     
 </body>
 </html>

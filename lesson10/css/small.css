@@ -139,7 +139,6 @@ h2 {
 section {
   border-radius: 0.4rem;
   position: absolute;
-  width: 200px;
   background-color: rgba(99, 96, 21, 0.775);
   margin: 0;
   padding: 0;
@@ -147,13 +146,21 @@ section {
   top: 70%;
   left: 8%;
 }
+#summary{
+  width: 245px;
+}
 .summary hr {
   width: 80%;
   margin-top: -0.5rem;
 }
-.summary li {
+#summary li {
   font-family: "Arimo", sans-serif;
   font-size: 1rem;
+width: 100px;
+}
+#summary .summary-right li {
+  width: 120px;
+
 }
 .summary-container {
   display: flex;
@@ -163,18 +170,18 @@ section {
 .summary-left {
   text-align: end;
   margin: 0;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   padding: 0;
   color: black;
   font-weight: bold;
 }
 .summary-right {
-  justify-content: center;
   margin: 0;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   padding: 0;
   color: white;
   text-align: start;
+  width: 300px;
 }
 .summary ul {
   list-style-type: none;

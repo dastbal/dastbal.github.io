@@ -74,6 +74,9 @@
     display: flex;
     
   }
+  #forecast{
+    overflow: hidden;
+  }
   
   .forecast h3,
   .forecast p {
@@ -83,7 +86,8 @@
 
     padding: 0 0;
     width: 125px;
-  margin: 0 auto;}
+    margin: 0 auto;
+  }
   #forecast > div p {
     font-size: 1.6rem;}
   #forecast > div h3 {
@@ -92,6 +96,7 @@ width: 125px;  }
   /*////////////////////////////// article ////////////////////////////////////*/
   .article-img , #home-article-img {
     margin-top: 2rem;
+    margin-right: 2rem;
     width: 30%;
     float: right;
   }

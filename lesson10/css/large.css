@@ -68,19 +68,24 @@
   }
 
   /*////////////////////////////// forecat ////////////////////////////////////*/
-
+  
   .forecast {
     display: block;
     display: flex;
-    width: 100%;
+    
   }
-  .forecast-box {
-    width: 20%;
-  }
+  
   .forecast h3,
   .forecast p {
     text-align: center;
   }
+  #forecast > div {
+    padding: 1rem 0;
+    width: 150px;
+  margin: 0 auto;}
+  #forecast > div p {
+    font-size: 1.6rem;}
+    
   /*////////////////////////////// article ////////////////////////////////////*/
   .article-img , #home-article-img {
     margin-top: 2rem;

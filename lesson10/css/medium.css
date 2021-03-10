@@ -25,6 +25,24 @@
     top: 80%;
     left: 8%;
   }
+    /*////////////////////////////// forecat ////////////////////////////////////*/
+
+  .forecast {
+    display: block;
+    display: flex;
+    
+  }
+  
+  .forecast h3,
+  .forecast p {
+    text-align: center;
+  }
+  #forecast > div {
+    padding: 1rem 0;
+    width: 150px;
+  margin: 0 auto;}
+  #forecast > div p {
+    font-size: 1.3rem;}
 
   /*          /////////////////////////// gallery//////////////////////////////////////////////////////// */
 .gallery-container{

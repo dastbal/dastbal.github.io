@@ -80,11 +80,14 @@
     text-align: center;
   }
   #forecast > div {
-    padding: 1rem 0;
-    width: 150px;
+
+    padding: 0 0;
+    width: 125px;
   margin: 0 auto;}
   #forecast > div p {
     font-size: 1.6rem;}
+  #forecast > div h3 {
+width: 125px;  }
     
   /*////////////////////////////// article ////////////////////////////////////*/
   .article-img , #home-article-img {

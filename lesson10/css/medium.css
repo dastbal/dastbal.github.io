@@ -38,11 +38,13 @@
     text-align: center;
   }
   #forecast > div {
-    padding: 1rem 0;
-    width: 150px;
+    padding: 0 0;
+    width: 95px;
   margin: 0 auto;}
   #forecast > div p {
     font-size: 1.3rem;}
+  #forecast > div h3 {
+    width: 95px;}
 
   /*          /////////////////////////// gallery//////////////////////////////////////////////////////// */
 .gallery-container{

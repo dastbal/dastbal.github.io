@@ -33,6 +33,7 @@
   }
   .navigation li {
     width: 100%;
+    padding-bottom:0.8rem ;
   }
   .navigation li:first-child {
     display: flex;
@@ -44,7 +45,6 @@
     padding-right: 0;
     display: flex;
     justify-content: flex-end;
-    width: auto;
   }
   .navigation li {
     width: 100%;

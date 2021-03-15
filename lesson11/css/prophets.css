@@ -1,0 +1,75 @@
+
+
+body{
+    background-color: rgba(177, 177, 180, 0.445);
+}
+h1{
+    text-align: center;
+    font-family: 'piazzolla';
+    color: rgb(207, 39, 17);
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.5rem;
+    color: rgb(207, 39, 17);
+    font-family: 'piazzolla';
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.cards{
+    margin: 0;
+    
+}
+section{
+    background-color: rgba(40, 40, 241, 0.233);
+    width: 95%;
+    max-width: 278px;
+    margin: 1rem auto;
+    padding: 0;
+    text-align: center;
+    border: 1px solid rgb(140, 148, 168);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 10px 4px rgba(32, 32, 32, 0.938);
+
+}
+section p {
+    margin: 0;
+    padding: 0.1rem;
+    font-family: 'arimo';
+}
+img{
+    width: 60%;
+    
+    margin: 1rem 20% 1rem 20%;
+    box-shadow: 2px 2px 10px 4px rgba(32, 32, 32, 0.938);
+
+}
+ @media only screen and (min-width: 594px) and (max-width: 1140px) {
+     main{
+        max-width: 750px;
+        margin: auto;
+     }
+     section{
+         
+    }
+    
+    .cards{
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 1141px) {
+     main{
+        max-width: 1290px;
+        margin: auto;
+     }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+
+} 

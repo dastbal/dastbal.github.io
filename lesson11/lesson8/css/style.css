@@ -1,0 +1,47 @@
+table{
+    box-shadow: 8px 8px  10px #628ca6;
+    margin: auto;
+    margin-top: 3rem;
+}
+table, th ,tr , td  {
+    border: 1.5px solid  #b3afaf;
+    border-collapse: collapse;
+    text-align: center;
+    font-family:  'Ubuntu'  ;
+    padding: 0.4rem 0.7rem ;
+}
+tbody tr{
+    font-size: 0.95rem;
+    font-family:  'Ubuntu'  ;
+}
+
+thead tr th{
+    font-size: 1.5rem;
+    color: black;
+    background-color: #7fb9c2 ;
+}
+thead tr td{
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+    background-color:#628ca6 ;
+}
+tbody tr{
+    color: rgb(43, 42, 42);
+    background-color: #e7f0ed;
+    
+}
+tbody tr:nth-child(even){
+    color: rgb(43, 42, 42);
+    background-color: #e7ffed;
+    
+}
+#max{
+    color: white;
+    background-color: #628ca6;
+}
+tfoot{
+    background-color:#7fb9c2  ;
+    font-size: 0.8rem;
+    color: rgb(43, 42, 42);
+}

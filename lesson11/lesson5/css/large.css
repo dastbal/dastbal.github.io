@@ -1,0 +1,128 @@
+@media only screen and (min-width: 790px) {
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: start;
+  }
+  header {
+    background-color: rgb(2, 12, 20);
+  }
+  .logo {
+    width: 95px;
+  }
+  header h1 {
+    font-size: 2.8rem;
+  }
+  #btn {
+    display: none;
+  }
+  .main-container,
+  .container,
+  #ham {
+    width: 75%;
+    margin: 0 12.5%;
+  }
+  .large--header {
+    justify-content: flex-start;
+  }
+
+  .navigation li a {
+    border: none;
+    padding-top: 1.2rem;
+    padding-bottom: 0.2rem;
+  }
+  .navigation li {
+    width: 100%;
+  }
+  .navigation li:first-child {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    padding-left: 0;
+  }
+  .navigation li:last-child {
+    padding-right: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+  }
+  .navigation li {
+    width: 100%;
+  }
+  .navigation li:hover {
+    background-color: rgb(57, 21, 99);
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero {
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../images/heromedium.jpg);
+  }
+  .down {
+    top: 55%;
+    left: 20%;
+  }
+
+  /*////////////////////////////// forecat ////////////////////////////////////*/
+
+  .forecast {
+    display: block;
+    display: flex;
+    width: 100%;
+  }
+  .forecast-box {
+    width: 20%;
+  }
+  .forecast h3,
+  .forecast p {
+    text-align: center;
+  }
+  /*////////////////////////////// article ////////////////////////////////////*/
+  .article-img {
+    margin-top: 2rem;
+    width: 30%;
+    float: right;
+  }
+
+  /*////////////////////////////// contact information ////////////////////////////////////*/
+  .contact-information {
+    padding: 1rem 0 0 0;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(8, 1fr);
+    grid-template-areas:
+      "m m m m c c c c"
+      "m m m m c c c c"
+      "m m m m c c c c"
+      "m m m m s s s s"
+      "m m m m s s s s";
+  }
+  .contact {
+    grid-area: c;
+    justify-self: center;
+  }
+  .contact p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .map {
+    grid-area: m;
+    align-self: stretch;
+
+    margin-left: 1rem;
+    display: flex;
+  }
+  .social-links {
+    margin: 0;
+    grid-area: s;
+    justify-self: center;
+  }
+  .social-links a {
+    margin-right: 0.3rem;
+  }
+}

@@ -74,8 +74,14 @@
     display: flex;
     
   }
+  
   #forecast{
-    overflow: hidden;
+    margin: 0 18%;
+    padding: 0;
+    width: 64%;
+    justify-content: center;
+    margin-bottom: 2rem;
+
   }
   
   .forecast h3,
@@ -87,6 +93,12 @@
     padding: 0 0;
     width: 125px;
     margin: 0 auto;
+  }
+  h2.title-forecast{
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  
   }
   #forecast > div p {
     font-size: 1.3rem;}

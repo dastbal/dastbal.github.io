@@ -238,7 +238,7 @@ background-color: rgb(31, 5, 61);
 }
 .article {
   width: 100%;
-  padding-top: 1rem;
+  overflow: hidden;
 }
 .article-img  #home-article-img {
   width: 92%;

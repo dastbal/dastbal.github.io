@@ -98,7 +98,8 @@ padding: 0.2rem 0; }
   /*////////////////////////////// article ////////////////////////////////////*/
   .article-img , #home-article-img {
     margin-top: 2rem;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
     width: 30%;
     float: right;
   }
@@ -259,6 +260,8 @@ div.town-data{
   max-width: 1000px;
   margin: auto;
   justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .home-hero, .home-article {
@@ -273,7 +276,6 @@ div.town-data{
  
 div.town-data > div {
   width: 290px;
-  border: 1px solid blue;
   
   
 }

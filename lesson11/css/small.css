@@ -482,7 +482,8 @@ div.town-data > div {
   width: 100%;
   text-align: center;
   justify-content: center;
-  background-color: rgba(31, 5, 61, 0.377); 
+  background-color: rgba(31, 5, 61, 0.267); 
+  box-shadow: 2px 4px 22px 2px black ;
    margin: 1rem 0;
    border-radius: 0.5rem;
   

@@ -9,16 +9,16 @@ fetch(requestURL)
     // temporary checking for valid response and data parsing
     const towns = data['towns'];
     towns.forEach(town =>{
-      if (town.name == 'Preston'){ town.photo = 'preston.webp'}
-      if (town.name == 'Soda Springs'){ town.photo = 'sodasprings.webp'}
-      if (town.name == 'Fish Haven'){ town.photo = 'fishhaven.webp'}
+      if (town.name == 'Preston'){ town.photo = 'https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/preston.webp?w=261&h=200'}
+      if (town.name == 'Soda Springs'){ town.photo = 'https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/sodasprings.webp?w=261&h=200'}
+      if (town.name == 'Fish Haven'){ town.photo = 'https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/fishhaven.webp?w=261&h=200'}
     })
 
     let cards= []
 
     
     towns.forEach( town => {
-        if (town.name == 'Preston' || town.name == 'Soda Springs' || town.name == 'Fish Haven') {
+        if (town.name == 'Preston' || town.name == 'Fish Haven'  ||  town.name == 'Soda Springs') {
 
             let card = document.createElement('div');
             let cardContainer = document.createElement('div');
@@ -29,7 +29,7 @@ fetch(requestURL)
             let p2 =document.createElement('p');
             let p3 =document.createElement('p');
             let img = new Image
-            img.setAttribute('src', `./images/` + town.photo );
+            img.setAttribute('src', town.photo );
             //   img.setAttribute('data-src', prophet.imageurl);
             img.setAttribute('alt', town.name + ' City' );
             
@@ -47,7 +47,7 @@ fetch(requestURL)
       
       
     });
-    document.querySelector('div.town-data').append(...cards);
+    document.querySelector('div.town-data').append(cards[2],cards[1],cards[0]);
 
 
 });

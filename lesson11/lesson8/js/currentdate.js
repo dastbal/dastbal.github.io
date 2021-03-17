@@ -25,7 +25,6 @@ dayOfWeekend=semana[date.getDay()]
 
 let currentDate=  `${dayOfWeekend}, ${date.getDate()} ${month} ${date.getFullYear()}.`;
 
-console.log(currentDate);
 
 document.getElementById("currentDate").textContent= currentDate;
 

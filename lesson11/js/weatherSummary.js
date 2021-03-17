@@ -1,6 +1,21 @@
 
-let cityId = 5604473
+
+let city = document.querySelector('.city').innerHTML
+let soda = 5607916
+let fish = 5585010
+let preston = 5604473    
+let id = 0    
 let apiKey = "e29e92b4b8a58175872ada937b0ffb2d"
+if (city=='Preston'){
+  id=preston
+} 
+if (city=='Fish Haven'){
+  id=fish
+} 
+if (city=='Soda Springs'){
+  id=soda
+} 
+
 let d= document.getElementById('description')
 let temp = document.getElementById('temp')
 let highTemp = document.getElementById('high')
@@ -9,11 +24,10 @@ let speed = document.getElementById('speed')
 let windChill = document.getElementById("windChill")
 
 
-const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${cityId}&units=imperial&appid=${apiKey}`;
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${id}&units=imperial&appid=${apiKey}`;
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
     
     
     d.textContent = jsObject.weather[0].description

@@ -152,6 +152,21 @@ div.town-data > div  img {
   height: 330px;
 }
 
+
+/* city pages   events */
+.event   {
+  display: flex;
+  justify-content: center;
+text-align: center;  
+
+
+
+}
+.event p {
+  font-size: 1.2rem;
+}
+
+
  
 
 

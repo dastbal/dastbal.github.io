@@ -313,3 +313,16 @@ div.town-data > div:last-child p:first-child{
 #home-article-img  {
   margin-right: 5%;
 }
+/**   Events**/
+.event   {
+  border-radius: 1rem;
+  max-width: 600px;
+  margin: 2rem auto 2rem auto;
+  display: flex;
+  justify-content: center;
+text-align: center;  
+
+}
+.event p {
+  font-size: 1.2rem;
+}

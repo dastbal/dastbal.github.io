@@ -518,5 +518,24 @@ div.town-data > div img {
   display: block;
 }
 
- 
+ /* city pages   events */
+ .event {
+   padding:1rem 4%;
+   background-color: rgb(31, 5, 61);
+   color: white;
+
+ }
+ .event h2 {
+  margin: 0;
+  margin-bottom: 0.8rem;
+  font-family: 'Piazzolla';
+  font-size: 2rem;
+  
+}
+
+.event p{
+   font-family: 'Arimo', sans-serif;
+   margin: 0.3rem 0;
+   font-size: 1rem;
+ }
  

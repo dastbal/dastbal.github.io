@@ -134,7 +134,7 @@ h2 {
 }
 /* ----------------- summary----------------- */
 .down {
-  top: 50%;
+  top: 45%;
 }
 section {
   border-radius: 0.4rem;
@@ -143,8 +143,8 @@ section {
   margin: 0;
   padding: 0;
   padding-bottom: 0.5rem;
-  top: 70%;
-  left: 8%;
+  top: 85%;
+  left: 10%;
 }
 #summary{
   width: 240px;

@@ -8,10 +8,15 @@ const observer = new IntersectionObserver((entries,observer)=>{
     entries.filter(isIntersecting).forEach(loadImg)
 })
 
-export  const resgisterImg = (images) =>{
+export  const resgisterImgs = (images) =>{
     images.forEach( img=>{
 
         observer.observe(img)
     }
     )
+}
+export  const resgisterImg = (image) =>{
+
+        observer.observe(image)
+
 }

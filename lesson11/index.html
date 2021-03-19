@@ -53,7 +53,7 @@
             <div class="home-hero">
                     <picture>
                             <source media="(min-width: 880px)" srcset="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/homeHeroLarge.jpg?w=1000&h=400">
-                                <img loading="lazy" src="./images/homeHeroSmall.jpg" alt="hero photo">
+                                <img class="heroImage" src="./images/placeholder.jpg" data-src="./images/homeHeroSmall.jpg"  alt="hero photo">
                             </picture>
             </div>
             <div   class="town-data"></div>
@@ -61,7 +61,7 @@
         
         <div class="box article home-article"> 
             <div id="home-article-img">
-                <img loading="lazy" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/summer.jpg?w=300" alt="image about the weather">
+                <img class="articleImage" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/summer.jpg?w=300" src="./images/placeholder.jpg" alt="image about the weather">
             </div>
             <div class="article-content home-article-content">
                 <h2 class="title">
@@ -112,23 +112,23 @@
                         
                         <a target="_blank" href="https://www.facebook.com">
                             
-                            <img loading="lazy" style="width: 50px; height: 50px;" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/049-facebook.webp?w=50" alt="facebook icon">
+                            <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/049-facebook.webp?w=50" src="" alt="facebook icon">
                         </a>
                         <a target="_blank" href="https://www.instagram.com">
 
-                            <img loading="lazy" style="width: 50px; height: 50px;" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/060-instagram.webp?w=50" alt="Instagram icon">
+                            <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/060-instagram.webp?w=50" src="" alt="Instagram icon">
                         </a>
                         <a target="_blank" href="https://www.twitter.com">
                             
-                            <img loading="lazy" style="width: 50px; height: 50px;" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/027-twitter.webp?w=50" alt="Twitter icon">
+                            <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/027-twitter.webp?w=50" src='' alt="Twitter icon">
                         </a>
                         <a target="_blank" href="https://www.youtube.com">
                             
-                            <img loading="lazy" style="width: 50px; height: 50px;" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/038-youtube.webp?w=50" alt="YoutubeIcon">
+                            <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/038-youtube.webp?w=50" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/placeholder.jpg?w=50" alt="YoutubeIcon">
                         </a>
                     </div>
                     <div class="map">
-                        <img loading="lazy" src="./images/map.png" alt=" picture of the map">
+                        <img class="mapImage" data-src="./images/map.png" src="./images/placeholder.jpg" alt=" picture of the map">
                     </div>
                     
                 </div>
@@ -144,7 +144,7 @@
         </footer>
     <script defer src="./js/currentdate.js"></script>
     <script defer src="./js/summaryAndToggle.js" ></script>
-    <script defer src="./js/town-data.js" ></script>
+    <script type="module" async src="./js/town-data.js" ></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script defer src="./js/webFontLoad.js"></script>
        

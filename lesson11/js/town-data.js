@@ -1,4 +1,10 @@
+import {resgisterImg} from './lazy.js'
+import {resgisterImgs} from './lazy.js'
 
+resgisterImgs(document.querySelectorAll('.socialImage'))
+resgisterImg(document.querySelector('.heroImage'))
+resgisterImg(document.querySelector('.articleImage'))
+resgisterImg(document.querySelector('.mapImage'))
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL)

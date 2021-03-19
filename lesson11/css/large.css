@@ -116,6 +116,9 @@ padding: 0.2rem 0; }
     float: right;
     
   }
+  footer{
+    margin-top: 2rem;
+  }
 
 
   /*////////////////////////////// contact information ////////////////////////////////////*/

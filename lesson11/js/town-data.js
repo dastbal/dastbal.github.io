@@ -5,6 +5,7 @@ resgisterImgs(document.querySelectorAll('.socialImage'))
 resgisterImg(document.querySelector('.heroImage'))
 resgisterImg(document.querySelector('.articleImage'))
 resgisterImg(document.querySelector('.mapImage'))
+let townsImages= []
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL)
@@ -35,7 +36,8 @@ fetch(requestURL)
             let p2 =document.createElement('p');
             let p3 =document.createElement('p');
             let img = new Image
-            img.setAttribute('src', town.photo );
+            img.setAttribute('src', './images/placeholder.jpg' );
+            img.setAttribute('data-src', town.photo );
             //   img.setAttribute('data-src', prophet.imageurl);
             img.setAttribute('alt', town.name + ' City' );
             
@@ -44,16 +46,18 @@ fetch(requestURL)
             p.textContent=  'Year Founded: '+ town.yearFounded; 
             p2.textContent=  'Population: '+ town.currentPopulation; 
             p3.textContent=  'Annual Rain Fall: '+ town.averageRainfall; 
+            resgisterImg(img)
 
             cardContainer.append(h2, span, p, p2, p3)            
             card.append(cardContainer, img);
-            
             cards.push(card)
         }
+        
+        
+        
+      });
+      document.querySelector('div.town-data').append(cards[2],cards[1],cards[0]);
+      
       
       
     });
-    document.querySelector('div.town-data').append(cards[2],cards[1],cards[0]);
-
-
-});

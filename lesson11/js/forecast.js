@@ -29,6 +29,13 @@
     
 //   });
 
+import{resgisterImg} from './lazy.js'
+import{resgisterImgs} from './lazy.js'
+resgisterImgs(document.querySelectorAll('.socialImage'))
+resgisterImg(document.querySelector('.heroImage'))
+resgisterImg(document.querySelector('.articleImage'))
+resgisterImg(document.querySelector('.mapImage'))
+
 let city = document.querySelector('.city').innerHTML
 let soda = 5607916
 let fish = 5585010

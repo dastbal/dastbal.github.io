@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content=" Magic Weather site for David Balladares in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link  rel="stylesheet" href="./css/normalize.css">
+    <link rel="shortcut icon" href="./favicon.ico" >
+    <link rel="stylesheet" href="./css/small.css"  >
+    <link rel="stylesheet" href="./css/medium.css" media="screen and (min-width: 500px) and (max-width: 879px)">
+    <link rel="stylesheet" href="./css/large.css" media="screen and (min-width: 880px)" >
+    <title> Home | Magic Weather</title>
+</head>
+<body >
+    <header>
+        
+        <div class="container small--header large--header">
+
+            <div class="logo"> 
+                <a href="./index.html">
+                    <img  src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/logo.png?w=95&h=95" alt="principal logo of the Magic Weather site">
+                </a>
+            </div>
+            <div class="title" >
+
+                <h1> Magic Weather</h1>
+                <p> Know more about this magic weather</p>
+            </div>
+        </div>
+    </header>
+    <nav id="nav">
+        <button id="btn"  onclick="burger()"  >&#9776; Menu</button>
+        <ul id="ham" class="navigation hide ">
+            <li ><a id="active" href=""> Home</a></li>
+            <li ><a  href="">Guayaquil</a></li>
+            <li><a href="">Join</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a   href="">Contac</a></li>
+        </ul>
+    </nav>
+
+    
+    <footer>
+        <div class="container small-footer">
+            <div class="contact" >
+                        <p>
+                        <span> Contact Information</span>
+                        <br>
+                        <br>
+                        <span> Magic Weather</span>
+                        <br>
+                        30 N 2st O
+                        <br>
+                        Preston, ID 857539
+                        <br>
+                        <br>
+                        &#128222;999-9999-9999
+                        <br>
+                        &#128231;weathermagic@magic.net
+                    </p>
+            </div>
+            <div class="social-links">
+                        
+                        <a target="_blank" href="https://www.facebook.com">
+                            
+                            <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/049-facebook.webp?w=50" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/placeholder.jpg?w=50" alt="facebook icon">
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com">
+
+                            <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/060-instagram.webp?w=50" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/placeholder.jpg?w=50" alt="Instagram icon">
+                        </a>
+                        
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127583.09170097389!2d-79.98114387425488!3d-2.1645025606800825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1sen!2sec!4v1616556117774!5m2!1sen!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+            <p> &copy;2021 | David Balladares | Guayaquil-Ecuador | <a target="_blank" href="https://www.byui.edu/online">BYUI Online Learning</a> <br>
+                <span>
+                    Last Updated 
+                </span> 
+                <span id="lastModified"></span>
+            </p> 
+        
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script defer src="./js/webFontLoad.js"></script>
+    <script defer src="./js/lastModified.js"></script>
+
+</body>
+</html>

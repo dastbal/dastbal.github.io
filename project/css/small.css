@@ -78,13 +78,23 @@ main{
     background-color: var(--blue);
 }
 .Hero{
+    max-width: 500px;
 
+}
+.Hero-img{
+    width: 100%;
+    height: 100%;
 }
 
 .CTA{
     background-color: var(--light-blue);
+    width: 40%;
+    position: relative;
+    top: -5rem;
+    left: 25vw;
 }
 .Purpose{
+    margin: 1rem;
     background-color: white;
 }
 .Company-names{

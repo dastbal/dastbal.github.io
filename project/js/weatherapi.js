@@ -22,7 +22,7 @@ temperature.innerHTML = jsObject.current.temp + '  &ordm;C'  // note how we refe
 humidity.textContent = ` Humedad: ${jsObject.current.humidity}` // note how we reference the weather array
 img.src= imagesrc
 img.setAttribute('alt' , jsObject.current.weather[0].description)
-document.querySelector('.Temperature').append(temperature,description, humidity, img)
+document.querySelector('.Temperature').append(img, temperature,description, humidity)
 
 
 

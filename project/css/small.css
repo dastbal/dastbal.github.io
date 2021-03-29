@@ -1,5 +1,52 @@
- 0A111F   /** rich black**/
- 14213D /** oxford blue**/
- 040677/** navy  blue**/
- 4E51F9/** majorelle blue**/
- EDFAFD/** azure blue**/
+:root{
+    --black : #0A111F;
+    --light_black :#14213D;
+    --blue : #040677;
+    --light-blue : #4e51f9;
+    --white : #edfafd;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--black);
+    color: var(--white);
+    
+}
+nav{
+    background-color: var(--light_black);
+    
+}
+main{
+    color: var(--black);
+    background-color: var(--white);
+    
+}
+.Alert{
+    background-color: var(--blue);
+}
+.Hero{
+
+}
+
+.CTA{
+    background-color: var(--light-blue);
+}
+.Purpose{
+    background-color: white;
+}
+.Company-names{
+    background-color: var(--light_black);
+    color: var(--white);
+    
+}
+.Company{
+    background-color: var(--light_black);
+    color: var(--white);
+}
+footer{
+    background-color: var(--light_black);
+    color: var(--white);
+    
+}

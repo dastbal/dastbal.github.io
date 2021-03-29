@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content=" Magic Weather site for David Balladares in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link  rel="stylesheet" href="./css/normalize.css">
+    <link rel="shortcut icon" href="./favicon.ico" >
+    <link rel="stylesheet" href="./css/small.css"  >
+    <link rel="stylesheet" href="./css/medium.css" media="screen and (min-width: 500px) and (max-width: 879px)">
+    <link rel="stylesheet" href="./css/large.css" media="screen and (min-width: 880px)" >
+    <title> Home | Magic City </title>
+</head>
+<body >
+    <header>
+        
+        <div class="Header-container">
+
+            <div class="logo"> 
+                <a href="./index.html">
+                    <img  src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/logo.png?w=90&h=90" alt="principal logo of the Magic Weather site">
+                </a>
+            </div>
+            <div class="Header-title" >
+
+                <h1> Magic City</h1>
+                <p> Know more about this magic city</p>
+            </div>
+        </div>
+    </header>
+    <nav class="Navigation" id="Navigation">
+        <button  id="btn"  onclick="burger()"  >&#9776; Menu</button>
+        <ul id="ham" class=" Navigation-ul hide ">
+            <li ><a  href="./index.html"> Home</a></li>
+            <li ><a id="active"  href="">Guayaquil</a></li>
+            <li><a href="./join.html">Join</a></li>
+            <li><a href="./directory.html">Directory</a></li>
+            <li><a   href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- <main>
+        <div class="Main-container">
+            <div class="Alert">
+                <span>Alert</span>
+                <span>x</span>
+            </div>
+            <div class="Hero">
+                <img data-src="" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/heroGuayaquil.jpeg?w=375" alt="" class="Hero-img">
+                <div class="CTA">
+                    <p> CTA</p>
+                </div>
+            </div>
+            <div class="Purpose">
+                <p>A description of the purpose of the chamber and its goals</p>
+            </div>
+            <div class="Companies">
+                <div class="Companies-names"> 
+                    <p>The names of all the companies</p>
+                </div>
+                <div class="Company">
+                    <img data-src="" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/placeholder.jpg?w=100" alt="" class="Company-img">
+                    <div class="Company-content">
+                        <p>Name</p>
+                        <p>contact information</p>
+                        <div class="Company-links">
+                        
+                            <a target="_blank" href="https://www.facebook.com">
+                                
+                                <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/049-facebook.webp?w=50" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/placeholder.jpg?w=50" alt="facebook icon">
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com">
+    
+                                <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/060-instagram.webp?w=50" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/placeholder.jpg?w=50" alt="Instagram icon">
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="Company">
+                    <img data-src="" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/placeholder.jpg?w=100" alt="" class="Company-img">
+                    <div class="Company-content">
+                        <p>Name</p>
+                        <p>contact information</p>
+                        <div class="Company-links">
+                        
+                            <a target="_blank" href="https://www.facebook.com">
+                                
+                                <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/049-facebook.webp?w=50" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/placeholder.jpg?w=50" alt="facebook icon">
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com">
+    
+                                <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/060-instagram.webp?w=50" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/placeholder.jpg?w=50" alt="Instagram icon">
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="Company">
+                    <img data-src="" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/placeholder.jpg?w=100" alt="" class="Company-img">
+                    <div class="Company-content">
+                        <p>Name</p>
+                        <p>contact information</p>
+                        <div class="Company-links">
+                        
+                            <a target="_blank" href="https://www.facebook.com">
+                                
+                                <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/049-facebook.webp?w=50" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/placeholder.jpg?w=50" alt="facebook icon">
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com">
+    
+                                <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/060-instagram.webp?w=50" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/placeholder.jpg?w=50" alt="Instagram icon">
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Events">
+                <p>Upcoming events area</p>
+            </div>
+            <div class="Temperature">
+
+            </div>
+            <div class="Forecast">
+
+            </div>
+
+
+        </div>
+
+    </main> -->
+
+    
+    <footer>
+        <div class="Footer-container">
+            <div class="Footer-contact" >
+                        <p>
+                        <span> Contact Information</span>
+                        <br>
+                        <span> Magic City</span>
+                        <br>
+                        Guayaquil-Ecuador
+                        <br>
+                        
+                        &#128222; +593978959094
+                        <br>
+                        &#128231;citymagic@magic.net
+                    </p>
+            </div>
+            <div class="Footer-social-links">
+                        
+                        <a target="_blank" href="https://www.facebook.com">
+                            
+                            <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/049-facebook.webp?w=50" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/placeholder.jpg?w=50" alt="facebook icon">
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com">
+
+                            <img  class="socialImage" style="width: 50px; height: 50px;" data-src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/060-instagram.webp?w=50" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/lesson11/images/placeholder.jpg?w=50" alt="Instagram icon">
+                        </a>
+                        
+            </div>
+            <!-- <div  class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127583.09170097389!2d-79.98114387425488!3d-2.1645025606800825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1sen!2sec!4v1616556117774!5m2!1sen!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div> -->
+        </div>
+
+            <p> &copy;2021 | David Balladares | Guayaquil-Ecuador | <a target="_blank" href="https://www.byui.edu/online">BYUI Online Learning</a> <br>
+                <span>
+                    Last Updated 
+                </span> 
+                <span id="lastModified"></span>
+            </p> 
+        
+
+    </footer>
+
+    <script src="./js/burger.js"></script>
+    <script src="./js/weatherapi.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script defer src="./js/webFontLoad.js"></script>
+    <script defer src="./js/lastModified.js"></script>
+    <script defer src="./js/lazy.js"></script>
+
+</body>
+</html>

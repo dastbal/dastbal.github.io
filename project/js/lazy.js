@@ -8,15 +8,21 @@ const observer = new IntersectionObserver((entries,observer)=>{
     entries.filter(isIntersecting).forEach(loadImg)
 })
 
-export  const resgisterImgs = (images) =>{
+const resgisterImgs = (images) =>{
     images.forEach( img=>{
 
         observer.observe(img)
     }
     )
 }
-export  const resgisterImg = (image) =>{
+const resgisterImg = (image) =>{
 
         observer.observe(image)
 
 }
+
+
+// IMAGES OF THE SOCIAL LIMKS
+
+let socialImages = document.querySelectorAll('.socialImage')
+resgisterImgs(socialImages)

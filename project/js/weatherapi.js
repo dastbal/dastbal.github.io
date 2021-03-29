@@ -31,7 +31,27 @@ document.querySelector('.Temperature').append(temperature,description, humidity,
 
 // FORECAST
 
+function forecast(){
+  let forecast= document.querySelector('.Forecast')
+     let forecastBoxes =[]
+  jsObject.daily.forEach(
+    (day) =>  {        
+      let forecastBox = document.createElement('div')
+      let h3 = document.createElement('h3')
+      let temperature = document.createElement('p')
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      let time = new Date(day.dt*1000)
+      time = time.toLocaleDateString('es-ES',options).substring(0,3).toUpperCase() +'.'
+      h3.innerHTML = time 
+      temperature.innerHTML = day.temp.day + ' &ordm;C' 
+      forecastBox.append(h3,temperature)
+      forecastBoxes.push(forecastBox)
+    })
 
+  forecast.append(forecastBoxes[1],forecastBoxes[2],forecastBoxes[3])  
+}
+
+forecast()
 
   });
  

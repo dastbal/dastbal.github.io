@@ -26,3 +26,7 @@ const resgisterImg = (image) =>{
 
 let socialImages = document.querySelectorAll('.socialImage')
 resgisterImgs(socialImages)
+// IMAGES OF THE companies
+
+let companyImages = document.querySelectorAll('.Company-image')
+resgisterImgs(companyImages)

@@ -1,0 +1,46 @@
+.Hero{
+    max-width: 879px;
+}
+.Hero-img{
+width: 100%;
+}
+.Companies{
+    display: grid;
+    grid-template-columns: minmax(250px,440px) minmax(250px,440px);
+}
+.Temperature img{
+    float: none;
+    
+    
+}
+.Temperature{
+
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 1rem;
+    
+}
+.Forecast{
+    clear: both;
+    position: relative;
+    top: -20rem;
+    float: right;
+    display: inline-block;
+    width: 45%;
+
+}
+.Forecast div{
+    margin-bottom: 0.85rem;
+
+}
+
+.Footer-home{
+
+    display: block;
+    width: 100%;
+    position: absolute;
+
+}
+html{
+    height: 1500px;
+}

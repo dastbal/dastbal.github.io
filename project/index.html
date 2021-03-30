@@ -33,7 +33,7 @@
     </header>
     <nav class="Navigation" id="Navigation">
         <button  id="btn"  onclick="burger()"  >&#9776; Menu</button>
-        <ul id="ham" class=" Navigation-ul hide ">
+        <ul id="ham" class=" Navigation-ul  ">
             <li ><a id="active" href=""> Home</a></li>
             <li ><a  href="./guayaquil.html">Guayaquil</a></li>
             <li><a href="./join.html">Join</a></li>
@@ -43,12 +43,12 @@
     </nav>
     <main>
         <div class="Main-container">
-            <div class="Alert">
+            <div id="Alert" >
                 <span>Alert</span>
-                <span>x</span>
+                <button  onclick="closed()" >x</button>
             </div>
             <div class="Hero">
-                <img data-src="" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/heroGuayaquil.jpeg?w=499&h=300" alt="" class="Hero-img">
+                <img data-src="" src="https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/heroGuayaquil.jpeg?w=499&h=300" alt="ciudade de guayaquil" class="Hero-img">
                 <div class="CTA">
                     <p> <a href="./join.html"> Join us</a></p>
                 </div>
@@ -183,6 +183,7 @@
     </footer>
 
     <script src="./js/burger.js"></script>
+    <script src="./js/closed.js"></script>
     <script src="./js/weatherapi.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script defer src="./js/webFontLoad.js"></script>

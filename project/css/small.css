@@ -4,6 +4,7 @@
     --blue : #040677;
     --light-blue : #4e51f9;
     --white : #edfafd;
+    font-size: 1.1rem;
 }
 *{
     margin: 0;
@@ -44,6 +45,7 @@ header{
     border: none;
     color: var(--white);
     padding: 0.4rem;
+    font-size: 1.2rem;
     
 }
 .Navigation-ul{
@@ -54,15 +56,16 @@ header{
     color: yellow;
 }
 .hide{
-   
+    
     display: none;
     
     
 }
 .Navigation-ul li {
+    font-size: 1.2rem;
     border-top: 1px solid var(--black);
     text-align: center;
-    padding: 0.3rem;
+    padding: 0.4rem;
 }
 .Navigation-ul li a {
     text-decoration: none;
@@ -74,9 +77,23 @@ main{
     background-color: var(--white);
     
 }
-.Alert{
+#Alert{
     background-color: var(--blue);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
 }
+#Alert button{
+    width: 20px;
+    color: var(--white);
+    background-color: transparent;
+    border: none;
+}
+#Alert.closed{
+    display: none;
+}
+
 .Hero{
     max-width: 500px;
 
@@ -94,10 +111,11 @@ main{
     left: 25vw;
 }
 .Purpose{
-    margin: 1rem;
+    margin: 1rem 0;
+    padding: 2rem 1rem;
     background-color: white;
 }
-.Company-names{
+.Companies-names{
     background-color: var(--light_black);
     color: var(--white);
     
@@ -129,11 +147,12 @@ main{
 .Temperature img {
     position: relative;
     float: right;
-    width: 30%;
+    width: 100px;
     top: -1rem;
     
     
 }
+
 
 .Forecast {
     padding: 1rem 0;

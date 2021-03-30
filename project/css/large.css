@@ -1,0 +1,38 @@
+header, #Navigation {
+    width: 100%;
+}
+nav{
+
+}
+#Navigation button{
+    display: none;
+}
+ 
+#Navigation ul{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#Navigation ul li {
+   border: none;
+   width: 25%;
+    
+}
+#Navigation ul li:first-child {
+    display: flex;
+    justify-content: flex-start; 
+    width: 12.5%;   
+}
+#Navigation ul li:last-child {
+    display: flex;
+    justify-content: flex-end;
+   width: 12.5%;
+    
+}
+.Hero{
+    max-width: 1000px;
+    margin: auto;
+}

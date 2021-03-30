@@ -30,3 +30,7 @@ resgisterImgs(socialImages)
 
 let companyImages = document.querySelectorAll('.Company-image')
 resgisterImgs(companyImages)
+// IMAGE of the Hero
+
+let HeroImage = document.querySelector('.Hero-img')
+resgisterImg(HeroImage)

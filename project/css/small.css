@@ -67,9 +67,16 @@ header{
     text-align: center;
     padding: 0.4rem;
 }
+.Navigation-ul li:hover {
+    background-color: var(--black);
+    
+}
 .Navigation-ul li a {
     text-decoration: none;
     color: var(--white);
+}
+.Navigation-ul li a:hover {
+    color: yellow;
 }
 
 main{

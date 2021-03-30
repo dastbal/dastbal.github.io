@@ -32,7 +32,58 @@ nav{
    width: 12.5%;
     
 }
+.Main-container{
+    max-width: 1000px;
+    margin: auto;
+}
+
 .Hero{
     max-width: 1000px;
     margin: auto;
+}
+.Companies{
+    margin: auto;
+    max-width: 1000px;
+    background-color: var(--light_black);
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1rem;
+    padding: 1rem;
+}
+.Companies-names{
+    margin: 1.5rem 0 0 2rem;
+    
+}
+.Company{
+    padding: 0.5rem 0;
+    background-color: var(--black);
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.Company-content p:first-child{
+    color: yellow;
+    font-size: 1.3rem;
+}
+.Company-links{
+    display: flex;
+
+}
+.Company-links img{
+    margin: 0.5rem 0.5rem 0 0;
+
+}
+.Company-image{
+
+ width: 120px;
+ height: 120px;
+}
+.Company:nth-child(1){
+    
+}
+
+.Forecast{
+    display: block;
 }

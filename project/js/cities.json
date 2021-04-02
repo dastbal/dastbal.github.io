@@ -1,0 +1,32 @@
+{
+    "companies":[
+        {"name":"Davids Pizza",
+         "phone":"9078959094",
+         "address":"Sauces 4",
+         "logo":"",
+         "link":""
+
+        },
+        {"name":"Davids Pizza",
+         "phone":"9078959094",
+         "address":"Sauces 4",
+         "logo":"",
+         "link":""
+
+        },
+        {"name":"Davids Pizza",
+         "phone":"9078959094",
+         "address":"Sauces 4",
+         "logo":"",
+         "link":""
+
+        },
+        {"name":"Davids Pizza",
+         "phone":"9078959094",
+         "address":"Sauces 4",
+         "logo":"",
+         "link":""
+
+        }
+    ]
+}

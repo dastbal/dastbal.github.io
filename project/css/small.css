@@ -6,9 +6,10 @@
     --white : #edfafd;
     font-size: 1.1rem;
 }
-main{
+body{
     background-color: var(--white);
 }
+
 *{
     margin: 0;
     padding: 0;

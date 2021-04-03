@@ -156,15 +156,23 @@ nav{
     grid-template-columns: repeat(3,minmax(290px,330px));
 
 }
+.Card-grid{
+    background-color: white;
+    box-shadow:3px 3px 15px 2px  var(--black);
+    ;
+
+}
 .Card-list h2 {text-align: center;}
 .Business-container .Card-list> div{
     display: flex;
     justify-content: space-evenly;
-
+    align-self: center;
+    justify-items: center;
 
 }
-.Card-list div, .Card-list p{
-    
+.Business-container .Card-list> div div,.Business-container .Card-list> div> p{
+    display: block;
+    padding: 2rem 0;
 }
 
 .Business-company{

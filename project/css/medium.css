@@ -60,6 +60,26 @@ html{
     grid-template-columns: repeat(2,minmax(250px,440px));
 
 }
+.Card-grid{
+    background-color: white;
+    box-shadow:3px 3px 15px 2px  var(--black);
+    ;
+
+}
+
+.Card-list h2 {text-align: center;}
+.Business-container .Card-list> div{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    justify-items: center;
+    flex-wrap: wrap;
+
+}
+.Business-container .Card-list> div div,.Business-container .Card-list> div> p{
+    display: block;
+    padding: 3rem 0;
+}
 .Business-company{
     
     margin: 1rem 0 1rem 0;

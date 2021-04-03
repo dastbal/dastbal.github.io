@@ -269,9 +269,10 @@ form fieldset textarea {
 
     display: block; 
     border: none;
+    padding-left: 0.5rem;
     border-radius: 0.5rem;
     margin-bottom: 0.5rem;
-    width: 90%;
+    width: 100%;
     height: 2rem;
     color: var(--white);
     background-color: var(--light_black);
@@ -282,12 +283,25 @@ form fieldset textarea {
 }
 
 fieldset{
+    padding:0;
     border:none;
     
-    margin: 2rem 0;
+    margin: 2rem;
+}
+.Join-form legend{
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
 }
 .Join-form select{
 
     color: var(--white);
     background-color: var(--light_black);
 } 
+.Join-button{
+    margin: 0 2rem;
+}
+#btn-report {
+    width: 100%;
+    box-shadow:3px 3px 15px 2px  var(--black);
+
+}

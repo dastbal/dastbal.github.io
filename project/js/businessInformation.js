@@ -28,6 +28,8 @@
         address.innerHTML = company.address
         logo.setAttribute('src',company.logo)
         logo.setAttribute('alt',company.name)
+        container.classList.add('Business-company')
+        container.classList.add('Card-grid')
 
 
 
@@ -39,3 +41,4 @@
 }
 
 businessInformation()
+

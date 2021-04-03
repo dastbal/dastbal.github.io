@@ -46,8 +46,10 @@
 Example buttons for grid and list view. For full credit consideration, this directory should have two buttons to display the cards either in a "grid view" (cards in multiple columns) or in a "list view" (a single column) for medium and larger views. This does not mean you need to change the layout structure, just the CSS when a button selection is made. The image provided here is just an example of what the buttons might look like in general.
     <div class="Business-container">
         <div class="Business-button">
-        <button>1</button>
-        <button>2</button>
+        <button  onclick="addGrid()" ><i class="fas fa-th"></i>
+
+        </button   >
+        <button onclick="addList()" ><i class="fas fa-list-ul"></i></button>
         </div>
         <div class="Business-companies">
 
@@ -101,10 +103,11 @@ Example buttons for grid and list view. For full credit consideration, this dire
 
     <script src="./js/burger.js"></script>
     <script src="./js/businessInformation.js"></script>
-
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script defer src="./js/webFontLoad.js"></script>
     <script defer src="./js/lastModified.js"></script>
+    <script defer src="./js/gridList.js"></script>
 
 </body>
 </html>

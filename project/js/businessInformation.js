@@ -18,22 +18,26 @@
         let phone = document.createElement('p')
         let address = document.createElement('p')
         let link = document.createElement('a')
+        let description = document.createElement('p')
 
 
 
 
         name.innerHTML = company.name
         link.innerHTML = company.link
+        link.setAttribute('href' , `https://${company.link}`) 
+        link.setAttribute('target' , `_blank`) 
         phone.innerHTML = company.phone
         address.innerHTML = company.address
         logo.setAttribute('src',company.logo)
         logo.setAttribute('alt',company.name)
         container.classList.add('Business-company')
         container.classList.add('Card-grid')
+        description.innerHTML= company.description
 
 
 
-        container.append(name,phone,address,link,logo)
+        container.append(name,phone,address,link,description,logo)
         companies.push(container)
     } )
     

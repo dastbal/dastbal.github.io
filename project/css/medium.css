@@ -44,3 +44,18 @@ width: 100%;
 html{
     height: 1500px;
 }
+
+
+
+/**            Directory.html            **/
+
+.Business-button{
+    display: block;
+}
+
+.Business-container .card{
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(250px,440px));
+
+}

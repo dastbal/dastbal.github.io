@@ -132,3 +132,17 @@ nav{
 .Forecast div:nth-child(2){
     margin: 0 12.5%;
 }
+
+
+
+/**            Directory.html            **/
+
+.Business-button{
+    display: block;
+}
+.Business-container .card{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(290px,330px));
+
+}

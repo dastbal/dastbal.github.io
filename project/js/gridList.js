@@ -1,9 +1,12 @@
 
 function addGrid(){
+    let businessContainer= document.querySelector('.Business-companies')
     let grid = document.querySelectorAll('.Business-company')
 
     if (grid[1].classList[1]==='Card-list'){  //verifica si esta  activa  la clase card list 
-
+        
+        businessContainer.classList.toggle('card')
+        businessContainer.classList.toggle('list')
 
         grid.forEach(
             company => {
@@ -17,7 +20,11 @@ function addGrid(){
 
 function addList(){
     let list = document.querySelectorAll('.Business-company')
+    let businessContainer= document.querySelector('.Business-companies')
+
     if (list[1].classList[1]==='Card-grid'){
+        businessContainer.classList.toggle('card')
+        businessContainer.classList.toggle('list')
 
     list.forEach(
         company =>{ 

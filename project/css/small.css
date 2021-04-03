@@ -223,3 +223,12 @@ footer p{
     gap: 1rem;
     
 }
+
+
+/**            Directory.html            **/
+
+
+
+.Business-button{
+    display: none;
+}

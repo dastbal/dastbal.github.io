@@ -16,10 +16,10 @@
         let name = document.createElement('h2')
         let logo = new Image
         let phone = document.createElement('p')
-        let address = document.createElement('p')
         let link = document.createElement('a')
         let description = document.createElement('p')
-
+        let first = document.createElement('div')
+        let second = document.createElement('div')
 
 
 
@@ -27,8 +27,7 @@
         link.innerHTML = company.link
         link.setAttribute('href' , `https://${company.link}`) 
         link.setAttribute('target' , `_blank`) 
-        phone.innerHTML = company.phone
-        address.innerHTML = company.address
+        phone.innerHTML = company.phone + "<br/> "+ company.address
         logo.setAttribute('src',company.logo)
         logo.setAttribute('alt',company.name)
         container.classList.add('Business-company')
@@ -36,8 +35,9 @@
         description.innerHTML= company.description
 
 
-
-        container.append(name,phone,address,link,description,logo)
+        first.append(phone,link)
+        second.append(logo,first,description)
+        container.append(name,second)
         companies.push(container)
     } )
     

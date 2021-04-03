@@ -4,15 +4,19 @@
     --blue : #040677;
     --light-blue : #4e51f9;
     --white : #edfafd;
+    --twhite : #edfafd59;
     font-size: 1.1rem;
 }
 body{
-    background-color: var(--white);
+    background-color: var(--twhite);
 }
 
 *{
     margin: 0;
     padding: 0;
+}
+html{
+    background-color: var(--twhite);
 }
 header{
     background-color: var(--black);
@@ -56,6 +60,7 @@ header{
     list-style: none;
     
 }
+
 #active{
     color: yellow;
 }
@@ -85,7 +90,7 @@ header{
 
 main{
     color: var(--black);
-    background-color: var(--white);
+    background-color: var(--twhite);
     
 }
 #Alert{
@@ -134,6 +139,9 @@ main{
 .Company{
     background-color: var(--light_black);
     color: var(--white);
+}
+.Company-content p:first-child{
+    color: yellow;
 }
 .Events{
     margin: 1rem 0;
@@ -231,4 +239,21 @@ footer p{
 
 .Business-button{
     display: none;
+}
+.Business-button button{
+    margin: 1rem 0.5rem;
+    color: var(--black);
+    border: none;
+    background: transparent;
+    font-size: 1.3rem;
+    width: 40px;
+    height: 40px;
+
+}
+
+.Business-company{
+    background-color: white;
+    box-shadow:3px 3px 15px 2px  var(--black);
+    ;
+
 }

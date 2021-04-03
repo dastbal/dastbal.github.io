@@ -50,12 +50,20 @@ html{
 /**            Directory.html            **/
 
 .Business-button{
-    display: block;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .Business-container .card{
     gap: 2rem;
     display: grid;
     grid-template-columns: repeat(2,minmax(250px,440px));
+
+}
+.Business-company{
+    
+    margin: 1rem 0 1rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
 
 }

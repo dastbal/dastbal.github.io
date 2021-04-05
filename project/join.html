@@ -33,7 +33,7 @@
     </header>
     <nav class="Navigation" id="Navigation">
         <button  id="btn"  onclick="burger()"  >&#9776; Menu</button>
-        <ul id="ham" class=" Navigation-ul hide ">
+        <ul id="ham" class=" Navigation-ul ">
             <li ><a  href="./index.html"> Home</a></li>
             <li ><a  href="./guayaquil.html">Guayaquil</a></li>
             <li><a id="active" href="">Join</a></li>
@@ -75,20 +75,20 @@ The different levels have different perks which you can explain on the page in a
                     <label for="business_url">Pagina web del negocio <input id="business_url" name="business_url" type="url" ></label>
                     <legend>Información del negocio  </legend>
                     <label for="more_information"> Descripción del negocio
-                    <textarea name="more_information" id="more_information" cols="30" rows="10"></textarea>
+                    <textarea name="more_information" id="more_information" cols="30" rows="5"></textarea>
                     </label>
                     <label for="membresias"> Membresias
                         <select name="membresias" id="membresias">
-                            <option value="" disabled selected>Select Region...</option>
-                            <option value="sin fines de lucro">Sin fines de lucro</option>
-                            <option value="Bronce">Bronce</option>
-                            <option value="Plata">Plata</option>
-                            <option value="Oro">Oro</option>
+                            <option value="" disabled selected>Seleciona una membresia...</option>
+                            <option value="sin fines de lucro">Sin fines de lucro ($100)</option>
+                            <option value="Bronce">Bronce ($200)</option>
+                            <option value="Plata">Plata ($400)</option>
+                            <option value="Oro">Oro ($1000)</option>
                         </select>
+                    </label>
                 </fieldset>
             
 
-                </label>
                 <div class="Join-button">
 
                     <input id="btn-report" type="submit" value="Unirse">

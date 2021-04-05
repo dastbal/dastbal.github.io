@@ -61,11 +61,14 @@ html{
 
 }
 .Card-grid{
-    background-color: white;
+    background-color: var(--light_black);
+    color: var(--white);
     box-shadow:3px 3px 15px 2px  var(--black);
-    ;
+
 
 }
+
+
 
 .Card-list h2 {text-align: center;}
 .Business-container .Card-list> div{
@@ -82,8 +85,24 @@ html{
 }
 .Business-company{
     
-    margin: 1rem 0 1rem 0;
+    margin:  0;
     padding: 1rem;
     border-radius: 1rem;
+    
+}
+
+/**            Join.html            **/
+.Join-main{
+}
+
+.Join-form  form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
 }
+.Join-form fieldset{
+    margin: 2rem 1rem;
+    width: 260px;
+}
+.Join-button{ width: 80%;}

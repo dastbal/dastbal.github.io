@@ -253,7 +253,7 @@ footer p{
 
 /**            join.html            **/
 
-.Join-form span{
+.Join-form span , .Contact-container form span{
     color: red;
 }
 form fieldset textarea {
@@ -263,10 +263,10 @@ form fieldset textarea {
     margin-bottom: 0.5rem;
     width: 100%;
   }
-  form fieldset input:required{
+  form  input:required{
       border-left: 4px solid red;
   }
-  form fieldset input:required:valid{
+  form  input:required:valid{
       border-left: 4px solid green;
     }
 .Join-form input ,select{
@@ -318,3 +318,60 @@ color: var(--black);
     box-shadow:3px 3px 15px 2px  var(--black);
 
 }
+
+/**            Contact.html            **/
+
+
+.Contact-container input, textarea , input::placeholder {
+    display: block;
+    padding-left:0.5rem ;
+    width: 96%;
+    border: none;
+    background-color: var(--light_black);
+    color: var(--white);
+    border-radius: 0.5rem;
+
+}
+.Contact-container input{
+   height: 2rem;
+
+}
+
+.Contact-container{
+    padding: 2rem;
+}
+.Contact-map{
+    display: none;
+}
+#btn-contact{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

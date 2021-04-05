@@ -10,9 +10,7 @@
 header, #Navigation {
     width: 100%;
 }
-nav{
 
-}
 #Navigation button{
     display: none;
 }
@@ -96,9 +94,7 @@ nav{
  width: 120px;
  height: 120px;
 }
-.Company:nth-child(1){
-    
-}
+
 .events-temperature-grid{
     
     margin: 1rem 0;
@@ -183,15 +179,67 @@ nav{
     border-radius: 1rem;
     
 }
-    /**            Directory.html            **/
-
-
-.Join-main{
-        display: flex;
-    }
-.Join-benefits{
-    width: 60%;
+    /**            Join.html            **/
     
-}
-.Join-form {
-    width: 40%;}
+    
+    .Join-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Join-benefits{
+        width: 40%;
+        position: fixed;
+        margin-bottom:1rem ;
+        top: 25%;
+        
+    }
+    .Join-form {
+        position: relative;
+        right: -60%;
+        width: 40%;}
+        
+        
+        
+        /**            Contact.html            **/
+        .Main-container h2 {
+            text-align: center;
+        }
+    .Contact-container {
+        padding: 0;
+        display: grid;
+        grid-template:  200px 1fr / 1fr 1fr;
+    }
+    .Contact-map{
+        display: block;
+    }
+    .Contact-form{
+        padding: 3rem 0;
+        grid-area: 1/2/3/3;
+    }
+    .Contact-information{
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

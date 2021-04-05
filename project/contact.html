@@ -33,7 +33,7 @@
     </header>
     <nav class="Navigation" id="Navigation">
         <button  id="btn"  onclick="burger()"  >&#9776; Menu</button>
-        <ul id="ham" class=" Navigation-ul hide ">
+        <ul id="ham" class=" Navigation-ul ">
             <li ><a  href="./index.html"> Home</a></li>
             <li ><a  href="./guayaquil.html">Guayaquil</a></li>
             <li><a href="./join.html">Join</a></li>
@@ -42,29 +42,43 @@
         </ul>
     </nav>
     <main class="Main-container">
+        <h2>Información de contacto del Chamber</h2>
         <div class="Contact-container">
             <div class="Contact-information">
-                <h2>Información de contacto del Chamber</h2>
+                    <p>
+                    <span> Contact Information</span>
+                    <br>
+                    <span> Magic City</span>
+                    <br>
+                    Guayaquil-Ecuador
+                    <br>
+                    &#128222; +593978959094
+                    <br>
+                    &#128231;citymagic@magic.net
+                </p>
             </div>
             <div  class="Contact-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127583.09170097389!2d-79.98114387425488!3d-2.1645025606800825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1sen!2sec!4v1616556117774!5m2!1sen!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="Contact-form">
                 <form action="./confirmation.html">
-                    <fieldset>
-                        <legend>Contactanos </legend>
-                        <label for="f_name"> Nombre <span>*</span><input type="text" required id="f_name" name="f_name"  ></label>
-                        <label for="f_email">Email <span>*</span><input type="email" id="f_email" placeholder="user@gmail.com" name="f_email" required></label>
-                        <label for="p_number">Numero celular<span>*</span> <input id="p_number" type="tel" name="p_number" required></label>
-                        <label for="more_information"> Descripción del negocio
-                            <textarea name="more_information" id="more_information" cols="30" rows="10"></textarea>
+                    <form>
+                            <legend>Contactanos </legend>
+                            <label for="f_name"> Nombre <span>*</span><input type="text" required id="f_name" name="f_name"  ></label>
+                            <label for="f_email">Email <span>*</span><input type="email" id="f_email" placeholder="user@gmail.com" name="f_email" required></label>
+                            <label for="p_number">Numero celular<span>*</span> <input id="p_number" type="tel" name="p_number" required></label>
+                            <label for="more_information"> Descripción del negocio
+                                <textarea name="more_information" id="more_information" cols="30" rows="5"></textarea>
                             </label>
-                        <fieldset>
+                            <div >
+                                
+                                <input id="btn-contact" type="submit" value="Contactanos">
+                            </div>
                 </form>
             </div>
-            <div class="Contact-board">
-                a list of the board of directors
-            </div>
+        </div>
+        <div class="Contact-board">
+            a list of the board of directors
         </div>
     </main>
     

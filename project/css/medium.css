@@ -92,8 +92,7 @@ html{
 }
 
 /**            Join.html            **/
-.Join-main{
-}
+
 
 .Join-form  form{
     display: flex;
@@ -106,3 +105,27 @@ html{
     width: 260px;
 }
 .Join-button{ width: 80%;}
+
+  /**            Contact.html            **/
+    
+  .Contact-container {
+    padding: 0 1rem;
+    display: grid;
+    grid-template:  1fr  100px 1fr /  1fr 1fr ;
+}
+  .Main-container h2 {
+    text-align: center;
+}
+iframe{ width: 100%;}
+.Contact-map{
+    display: block;
+    width: 80%;
+    grid-area: 3/1/4/3;
+    margin: auto;
+}
+.Contact-form{
+    grid-area: 1/2/3/3;
+    padding: 1rem 0;
+}
+.Contact-information{
+}

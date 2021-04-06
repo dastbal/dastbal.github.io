@@ -245,6 +245,9 @@ footer p{
 .Business-button{
     display: none;
 }
+.card h2 {
+    color: yellow;
+}
 .Business-button button{
     margin: 1rem 0.5rem;
     color: var(--black);

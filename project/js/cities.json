@@ -1,6 +1,14 @@
 {
     "companies":[
-        {"name":"Davids Pizza",
+        {"name":"David's Pizza",
+         "phone":"0978959094",
+         "address":"Sauces 4",
+         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=150&h=150",
+         "link":"www.David.com",
+         "description":" Pizza Mediana $7.00 , Pizza Familiar $10.00 <br/> Ingredientes: Jamón, Tocino, Pepperoni, Hawaiana."
+
+        },
+        {"name":"Neko Brigadeiro",
          "phone":"9078959094",
          "address":"Sauces 4",
          "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=200&h=200",
@@ -30,28 +38,20 @@
          "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=200&h=200",
          "link":"www.google.com",
          "description":" Pizza Mediana $7.00 , Pizza Familiar $10.00 <br/> Ingredientes: Jamón, Tocino, Pepperoni, Hawaiana."
-
         },
-        {"name":"Davids Pizza",
-         "phone":"9078959094",
+        {"name":"Jugos el Gato",
+         "phone":"0957583794",
          "address":"Sauces 4",
          "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=200&h=200",
          "link":"www.google.com",
          "description":" Pizza Mediana $7.00 , Pizza Familiar $10.00 <br/> Ingredientes: Jamón, Tocino, Pepperoni, Hawaiana."
         },
-        {"name":"Davids Pizza",
-         "phone":"9078959094",
-         "address":"Sauces 4",
-         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=200&h=200",
+        {"name":"Neko's Brigadeiro",
+         "phone":"0978959094",
+         "address":"Sauces 6",
+         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=150&h=150",
          "link":"www.google.com",
-         "description":" Pizza Mediana $7.00 , Pizza Familiar $10.00 <br/> Ingredientes: Jamón, Tocino, Pepperoni, Hawaiana."
-        },
-        {"name":"Davids Pizza",
-         "phone":"9078959094",
-         "address":"Sauces 4",
-         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=200&h=200",
-         "link":"www.google.com",
-         "description":" Pizza Mediana $7.00 , Pizza Familiar $10.00 <br/> Ingredientes: Jamón, Tocino, Pepperoni, Hawaiana."
+         "description":" Elaboramos de dulces brasileños conocidos como ''Brigadeiros' , hechos con leche condensada y cocoa en polvo."
 
         }
     ]

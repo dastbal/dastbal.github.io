@@ -110,22 +110,26 @@ html{
     
   .Contact-container {
     padding: 0 1rem;
-    display: grid;
-    grid-template:  1fr  100px 1fr /  1fr 1fr ;
+    display: block;
 }
   .Main-container h2 {
     text-align: center;
 }
-iframe{ width: 100%;}
+iframe{ width: 100%;
+margin: auto;}
 .Contact-map{
+    width: 65%;
     display: block;
-    width: 80%;
-    grid-area: 3/1/4/3;
     margin: auto;
 }
 .Contact-form{
-    grid-area: 1/2/3/3;
-    padding: 1rem 0;
+    width: 330px;
+    padding: 2rem;
+    color: var(--black);
+    border-radius: 1rem;
+    margin: 1rem  auto;
 }
 .Contact-information{
+    text-align: center;
+    padding: 2rem;
 }

@@ -4,14 +4,14 @@
          "phone":"0978959094",
          "address":"Sauces 4",
          "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=150&h=150",
-         "link":"www.David.com",
+         "link":"www.davidspizza-sauces4.glitch.me/index.html",
          "description":" Pizza Mediana $7.00 , Pizza Familiar $10.00 <br/> Ingredientes: Jamón, Tocino, Pepperoni, Hawaiana."
 
         },
         {"name":"Neko Brigadeiro",
          "phone":"9078959094",
          "address":"Sauces 4",
-         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=200&h=200",
+         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=150&h=150",
          "link":"www.google.com",
          "description":" Pizza Mediana $7.00 , Pizza Familiar $10.00 <br/> Ingredientes: Jamón, Tocino, Pepperoni, Hawaiana."
 
@@ -32,25 +32,25 @@
          "description":" Pizza Mediana $7.00 , Pizza Familiar $10.00 <br/> Ingredientes: Jamón, Tocino, Pepperoni, Hawaiana."
 
         },
-        {"name":"Davids Pizza",
-         "phone":"9078959094",
-         "address":"Sauces 4",
-         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=200&h=200",
-         "link":"www.google.com",
+        {"name":"Michael’s & Co",
+         "phone":"0999842154",
+         "address":"Urdesa, Samanes y centro",
+         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/michael.png?w=150&h=150",
+         "link":"www.instagram.com/michaelshamburgueseria/",
          "description":" Pizza Mediana $7.00 , Pizza Familiar $10.00 <br/> Ingredientes: Jamón, Tocino, Pepperoni, Hawaiana."
         },
         {"name":"Jugos el Gato",
          "phone":"0957583794",
          "address":"Sauces 4",
-         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=200&h=200",
-         "link":"www.google.com",
-         "description":" Pizza Mediana $7.00 , Pizza Familiar $10.00 <br/> Ingredientes: Jamón, Tocino, Pepperoni, Hawaiana."
+         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/gato.png?w=150&h=150",
+         "link":"www.instagram.com/jugosycomidaselgato/",
+         "description":"Ofrecemos  Jugos de todo tipo, empanadas, tortillas, <br/>  bollos, y todo los que puedas imaginar."
         },
         {"name":"Neko's Brigadeiro",
          "phone":"0978959094",
          "address":"Sauces 6",
-         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/pizza.png?w=150&h=150",
-         "link":"www.google.com",
+         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/neko.jpg?w=150&h=150",
+         "link":"www.instagram.com/brigadeiro.david/",
          "description":" Elaboramos de dulces brasileños conocidos como ''Brigadeiros' , hechos con leche condensada y cocoa en polvo."
 
         }

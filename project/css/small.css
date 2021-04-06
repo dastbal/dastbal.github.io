@@ -122,17 +122,23 @@ main{
 .CTA{
     background-color: var(--light-blue);
     position: relative;
-    top: -20rem;
+    top: -5rem;
     left:4vw;
 }
 .Purpose{
-    margin: 1rem 0;
+    margin: -3rem 0 2rem 0;
     padding: 2rem 1rem;
     background-color: white;
+    text-align: center;
 }
 .Companies-names{
     background-color: var(--light_black);
     color: var(--white);
+    text-align: center;
+    
+}
+.Companies-names p {
+    margin: 0.rem 0;
     
 }
 .Company{

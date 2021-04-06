@@ -13,15 +13,15 @@
          "address":"Sauces 6",
          "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/dental.png?w=150&h=150",
          "link":"www.instagram.com/r_asang_dental_c/",
-         "description":" Odontología Integral & Preventiva"
+         "description":" <br/>  Odontología Integral & Preventiva"
 
         },
         {"name":"La Tablita del Tártaro",
          "phone":"1800(822548)",
          "address":"Alborada",
-         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/tartaro.png?w=2250&h=150",
+         "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/tartaro.png?w=225&h=150",
          "link":"www.latablitadeltartaro.com/",
-         "description":" Expertos al carbón desde 1996."
+         "description":" <br/>  Expertos al carbón desde 1996."
 
         },
         {"name":"Aloha Café",
@@ -29,7 +29,7 @@
          "address":"Kennedy Norte",
          "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/aloha.png?w=150&h=150",
          "link":"www.instagram.com/alohacafeec/",
-         "description":" Tenemos ¡Los Mejores Bolones de Guayaquil!."
+         "description":" <br/> Tenemos ¡Los Mejores Bolones de Guayaquil!."
 
         },
         {"name":"Michael’s & Co",
@@ -37,21 +37,21 @@
          "address":"Urdesa, Samanes y centro",
          "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/michael.png?w=150&h=150",
          "link":"www.instagram.com/michaelshamburgueseria/",
-         "description":" Somos más que una hamburguesa 🍔🤩🤗"
+         "description":" <br/>  Somos más que una hamburguesa 🍔🤩🤗"
         },
         {"name":"Jugos el Gato",
          "phone":"0957583794",
          "address":"Sauces 4",
          "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/gato.png?w=150&h=150",
          "link":"www.instagram.com/jugosycomidaselgato/",
-         "description":"Ofrecemos  Jugos de todo tipo, empanadas, tortillas, <br/>  bollos, y todo los que puedas imaginar."
+         "description":"Ofrecemos  Jugos de todo tipo, empanadas, <br/>  tortillas, bollos, y todo los que puedas imaginar."
         },
         {"name":"Neko's Brigadeiro",
          "phone":"0978959094",
          "address":"Sauces 6",
          "logo":"https://ahbrbaepvq.cloudimg.io/v7/dastbal.github.io/project/images/neko.png?w=150&h=150",
          "link":"www.instagram.com/brigadeiro.david/",
-         "description":" Elaboramos de dulces brasileños conocidos como ''Brigadeiros' , hechos con leche condensada y cocoa en polvo."
+         "description":" Elaboramos de dulces brasileños <br/> conocidos como 'Brigadeiros' <br/>  hechos con leche condensada y cocoa en polvo."
 
         }
     ]

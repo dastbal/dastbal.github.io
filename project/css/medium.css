@@ -4,6 +4,41 @@
 .Hero-img{
 width: 100%;
 }
+.CTA{
+    width: 200px;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.719);
+    border: 2px solid var(--black);
+}
+.CTA:hover{
+    
+    background-color:  #0a111fd3;
+    color: var(--white)
+    ;
+}
+.CTA a:hover{
+    color: var(--white);
+}
+.CTA a{
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--black);
+}
+.CTA p{
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+
+}
+.Purpose{
+    margin-top: -1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 15px 2px  var(--black);
+    
+}
 .Companies{
     display: grid;
     grid-template-columns: minmax(250px,440px) minmax(250px,440px);

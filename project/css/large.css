@@ -235,30 +235,37 @@ header, #Navigation {
         .Main-container h2 {
             text-align: center;
         }
-    .Contact-container {
-        padding: 0;
+        .Contact-container {
+            padding: 0;
+            display: grid;
+            grid-template:  200px 1fr /1fr 330px;
+        }
+        .Contact-map{
+            display: block;
+            padding:1rem  3rem;
+            grid-area: 2/1/3/2;
+        }
+        .Contact-form{
+            padding: 3rem 1rem;
+            grid-area: 1/2/3/3;
+        }
+        .Contact-information{
+            text-align: start;
+            padding: 3rem 0;
+            padding-left: 3rem;
+        }
+        iframe{
+            width: 100%;
+        }
+        
+        /**            Guayaquil.html            **/
+    .Guayaquil-news{
         display: grid;
-        grid-template:  200px 1fr /1fr 330px;
+        grid-template-columns: 3fr 1fr;
     }
-    .Contact-map{
-        display: block;
-        padding:1rem  3rem;
-        grid-area: 2/1/3/2;
+    .Guayaquil-new-big{
+        grid-area: 1/1/3/2;
     }
-    .Contact-form{
-        padding: 3rem 1rem;
-        grid-area: 1/2/3/3;
-    }
-    .Contact-information{
-        text-align: start;
-        padding: 3rem 0;
-        padding-left: 3rem;
-    }
-    iframe{
-        width: 100%;
-    }
-    
-    
     
     
     

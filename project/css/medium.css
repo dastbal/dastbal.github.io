@@ -51,6 +51,12 @@ width: 100%;
     display: grid;
     grid-template-columns: minmax(250px,440px) minmax(250px,440px);
 }
+.Companies-names{
+padding: 3rem 1rem;
+}
+.Company{
+padding: 1rem;
+}
 .Temperature img{
     float: none;
     
@@ -180,7 +186,7 @@ margin: auto;}
  .Guayaquil-news{
      gap: 1rem;
     display: grid;
-    grid-template: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .Guayaquil-new-big{
     grid-area: 1/1/2/3;

@@ -245,7 +245,7 @@ header, #Navigation {
         width: 40%;
         position: fixed;
         margin-bottom:1rem ;
-        top: 25%;
+        top: 35%;
         
     }
     .Join-form {
@@ -258,6 +258,7 @@ header, #Navigation {
         /**            Contact.html            **/
         .Main-container h2 {
             text-align: center;
+            font-size: 1.8rem;
         }
         .Contact-container {
             padding: 0;
@@ -277,6 +278,8 @@ header, #Navigation {
             text-align: start;
             padding: 3rem 0;
             padding-left: 3rem;
+            line-height: 1.5rem;
+            font-size: 1.1rem;
         }
         iframe{
             width: 100%;

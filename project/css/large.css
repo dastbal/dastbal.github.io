@@ -166,6 +166,12 @@ header, #Navigation {
     grid-area: 1/7/2/11;
     display: block;
 }
+.Temperature p{
+    
+   
+    line-height: 2.2rem;
+     
+ }
 .Temperature h3{
     align-content: center;
     color: yellow;

@@ -134,6 +134,35 @@ main{
     top: -5rem;
     left:4vw;
 }
+.CTA{
+    width: 140px;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.719);
+    border: 2px solid var(--black);
+}
+.CTA:hover{
+    
+    background-color:  #0a111fd3;
+    color: var(--white)
+    ;
+}
+.CTA a:hover{
+    color: var(--white);
+}
+.CTA a{
+    display: inline-block;
+    padding: 0.3rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--black);
+}
+.CTA p{
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+
+}
 .Purpose{
     margin: -3rem 0 2rem 0;
     padding: 2rem 1rem;
@@ -186,6 +215,12 @@ main{
     background-color: var(--light_black);
     color: var(--white);
     font-size: 1.3rem;
+    
+}
+.Temperature p{
+    
+   font-size: 1rem;
+   text-align: center;
     
 }
 .Temperature h3 , .Events h3{

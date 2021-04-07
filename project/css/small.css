@@ -260,6 +260,16 @@ footer a {
 }
 .card h2 {
     color: yellow;
+    margin-bottom: 1rem;
+}
+.Directory h1{
+    text-align: center;
+    margin: 1rem 0 0 0;
+    padding: 0;
+}
+
+.Business-companies a {
+    color: var(--white);
 }
 .Business-button button{
     margin: 1rem 0.5rem;
@@ -395,7 +405,11 @@ text-decoration: none;
 }
 
 
-
+.confirmation{
+    margin: 8rem 30% ;
+    text-align: center;
+    font-size: 3rem;
+}
 
 
 

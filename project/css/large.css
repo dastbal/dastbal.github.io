@@ -195,26 +195,31 @@ header, #Navigation {
     display: flex;
     justify-content: flex-end;
 }
+.Directory .list img{
+    width: 20%;
+}
+.Directory .card img{
+    width: 50%;
+}
+
 .Business-container .card{
     gap: 2rem;
     display: grid;
     grid-template-columns: repeat(3,minmax(290px,330px));
+    margin-bottom: 2rem;
 
 }
 .Card-grid{
     text-align: center;
     background-color: var(--light_black);
     color: var(--white);
-    box-shadow:3px 3px 15px 2px  var(--black);
 
 
 }
 .Card-list h2 {text-align: center;}
 .Business-container .Card-list> div{
     display: flex;
-    justify-content: space-evenly;
-    align-self: center;
-    justify-items: center;
+    justify-content: space-around;
     
 }
 .Business-container .Card-list> div div,.Business-container .Card-list> div> p{

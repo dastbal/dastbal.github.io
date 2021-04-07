@@ -7,6 +7,13 @@
     --twhite : #edfafd59;
     font-size: 1.1rem;
 }
+h1,h2,h3,h4{
+    font-family: 'Piazzolla';
+}
+
+p{
+    font-family: 'Arimo';
+}
 
 body{
     background-color: var(--twhite);
@@ -28,6 +35,7 @@ header{
     padding: 2vh 3vw;
     display: flex;
 }
+
 .logo{
     border: 2px solid var(--white);
     overflow: hidden;
@@ -218,10 +226,11 @@ footer{
     background-color: var(--light_black);
     color: var(--white);
     font-size: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 1rem;
     
 }
 footer p{
+    line-height: 2rem;
     text-align: center;
 }
 .Footer-container{
@@ -237,7 +246,7 @@ footer p{
     gap: 1rem;
     
 }
-footer .Footer-container a {
+footer a {
     color: var(--white);
 }
 
@@ -363,9 +372,27 @@ color: var(--black);
 /**            Contact.html            **/
 .Guayaquil-main-container img{
     width: 100%;
-
+    
 }
 
+/**            Guayaquil.html            **/
+.Guayaquil-main-container h2, .Guayaquil-main-container h3 , .Guayaquil-main-container a h3{
+    margin: 0.5rem 0.5rem;
+    color: var(--black) ;
+}
+
+.Guayaquil-main-container h1{
+    text-align: center;
+}
+.Guayaquil-main-container a{
+text-decoration: none;
+}
+.Guayaquil-main-container p , .Guayaquil-main-container a p{
+    margin: 0.5rem 0.5rem;
+}
+.Guayaquil-fun-big , .Guayaquil-fun-small{
+    margin: 1rem 0;
+}
 
 
 

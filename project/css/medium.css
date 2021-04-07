@@ -4,6 +4,14 @@
 .Hero-img{
 width: 100%;
 }
+.Header-container{
+    padding-bottom:1rem ;
+    padding-left: 20%;
+    
+}
+.logo{
+    margin-top: 0.6rem;
+}
 .CTA{
     width: 200px;
     border-radius: 1rem;
@@ -56,7 +64,6 @@ width: 100%;
     
 }
 .Forecast{
-    clear: both;
     position: relative;
     top: -20rem;
     float: right;
@@ -178,7 +185,22 @@ margin: auto;}
 .Guayaquil-new-big{
     grid-area: 1/1/2/3;
 }
+.Guayaquil-new h3{
+    height: 6rem;
+}
 .Guayaquil-fun-small-content{
     display: flex;
 
+}
+.Guayaquil-fun-small-content p{
+    padding: 2rem 0.5rem;
+}
+.Guayaquil-fun-small-content img{
+width: 50%;
+}
+.Guayaquil-main-container h2{
+font-size: 1.8rem;    
+}
+.Guayaquil-main-container h3{
+font-size: 1.6rem;    
 }

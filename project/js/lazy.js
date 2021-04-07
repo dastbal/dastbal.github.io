@@ -22,15 +22,9 @@ const resgisterImg = (image) =>{
 }
 
 
-// IMAGES OF THE SOCIAL LIMKS
 
-let socialImages = document.querySelectorAll('.socialImage')
-resgisterImgs(socialImages)
-// IMAGES OF THE companies
 
-let companyImages = document.querySelectorAll('.Company-image')
-resgisterImgs(companyImages)
-// IMAGE of the Hero
 
-let HeroImage = document.querySelector('.Hero-img')
-resgisterImg(HeroImage)
+
+let lazy = document.querySelectorAll('.lazy')
+resgisterImgs(lazy)

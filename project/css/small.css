@@ -342,11 +342,11 @@ color: var(--black);
     background-color: var(--light_black);
     color: var(--white);
     border-radius: 0.5rem;
-
+    
 }
 .Contact-container input{
-   height: 2rem;
-
+    height: 2rem;
+    
 }
 
 .Contact-container{
@@ -360,7 +360,11 @@ color: var(--black);
     width: 100%;
 }
 
+/**            Contact.html            **/
+.Guayaquil-main-container img{
+    width: 100%;
 
+}
 
 
 

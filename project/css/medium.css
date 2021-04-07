@@ -168,3 +168,17 @@ margin: auto;}
     text-align: center;
     padding: 2rem;
 }
+
+ /**            Guayaquil.html            **/
+ .Guayaquil-news{
+     gap: 1rem;
+    display: grid;
+    grid-template: 1fr 1fr;
+}
+.Guayaquil-new-big{
+    grid-area: 1/1/2/3;
+}
+.Guayaquil-fun-small-content{
+    display: flex;
+
+}

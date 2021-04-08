@@ -222,10 +222,27 @@ header, #Navigation {
 
 
 }
+.Card-grid a{
+   font-size: 0.8rem;
+   display: block;
+   margin: 0.5rem 0;
+
+
+}
 .Card-list h2 {text-align: center;}
 .Business-container .Card-list> div{
     display: flex;
     justify-content: space-around;
+    
+}
+.Business-container .Card-list> div div{
+    text-align: center;
+    width: 20%;
+    
+}
+.Business-container .Card-list> div p{
+    text-align: center;
+    width: 40%;
     
 }
 .Business-container .Card-list> div div,.Business-container .Card-list> div> p{

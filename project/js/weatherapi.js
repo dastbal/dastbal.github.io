@@ -16,10 +16,10 @@ let img = new Image
 
 
 
-const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.current.weather[0].icon + '.png';  // note the concatenation
-description.innerHTML = jsObject.current.weather[0].description ;  // note how we reference the weather array
-temperature.innerHTML = jsObject.current.temp + '  &ordm;C'  // note how we reference the weather array
-humidity.textContent = ` Humedad: ${jsObject.current.humidity}` // note how we reference the weather array
+const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.current.weather[0].icon + '.png';  
+description.innerHTML = jsObject.current.weather[0].description ;  
+temperature.innerHTML = jsObject.current.temp + '  &ordm;C'  
+humidity.innerHTML = ` Humedad: ${jsObject.current.humidity} %` 
 img.src= imagesrc
 img.setAttribute('alt' , jsObject.current.weather[0].description)
 document.querySelector('.Temperature').append(img, temperature,description, humidity)

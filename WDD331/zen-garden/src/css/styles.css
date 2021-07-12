@@ -1,0 +1,334 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1,
+h2 {
+  font-family: "Rock Salt", cursive;
+  color: #6a7b76;
+}
+
+h1 {
+  font-size: 3.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 0.4em;
+}
+
+body {
+  /* this is the page background */
+  background-color: #ffffff;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1,
+h2 {
+  font-family: "Rock Salt", cursive;
+  color: #6a7b76;
+}
+
+h1 {
+  font-size: 3.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 0.4em;
+}
+
+body {
+  /* this is the page background */
+  background-color: #ffffff;
+}
+
+.page-wrapper {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.intro {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-area: 1/2/3/6;
+}
+
+.intro header h2 {
+  left: 1rem;
+  top: 1rem;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+}
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2/1/7/2;
+}
+
+.sidebar .wrapper .design-selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sidebar .wrapper .design-selection nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.sidebar .wrapper .design-selection li {
+  margin: 1rem 0;
+}
+
+.sidebar .wrapper .design-selection a {
+  display: block;
+}
+
+.sidebar .wrapper div {
+  margin-bottom: 2rem;
+}
+
+.main {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-area: 3/2/7/6;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.main > div {
+  background-color: #3a4e48;
+}
+
+.main .explanation {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 1/1/4/3;
+}
+
+.main .participation {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 5/1/8/3;
+}
+
+.main .requirements {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 4;
+  grid-area: 3/3/8/7;
+}
+
+.main .benefits {
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: 8/1/10/7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Rock Salt", cursive;
+}
+
+a, li {
+  text-decoration: none;
+  text-align: left;
+  color: #040303;
+}
+
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+div {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.main > div {
+  padding-top: 150px;
+  background-image: url(https://cfvod.kaltura.com/p/1157612/sp/115761200/thumbnail/entry_id/1_xv5ij5nv/version/100011/width/1149/height/676);
+  background-repeat: repeat-x;
+  background-size: contain;
+  text-align: left;
+  box-shadow: 2px 2px 4px #040303;
+}
+
+.main > div p, .main > div a {
+  color: #beb0a7;
+  text-shadow: #040303;
+}
+
+.main > div p {
+  margin-top: 10px;
+}
+
+h2 {
+  line-height: 25px;
+}
+
+p {
+  line-height: 20px;
+}
+
+h3 {
+  line-height: 20px;
+  color: #6a7b76;
+}
+
+.intro {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.intro p {
+  margin: 10px;
+}
+
+p {
+  font-family: "Alegreya", serif;
+}
+
+body {
+  background: url(https://github.com/danmaj33/zen-garden/blob/main/zengarden/style-guide-template/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg?raw=true) fixed center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=styles.css.map */
